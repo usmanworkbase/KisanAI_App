@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFertilizerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fertilizer Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textColor="@color/dark_green"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="#444444"
+        android:textSize="14sp"
+        android:lineSpacingExtra="2dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Details Grid-like layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F5F5F5"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvImpactLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/impact_on_crop"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvImpact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Impact"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvMethodLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/application_method"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Method"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDosageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dosage"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvDosage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dosage"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvFirstAppLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_application"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvFirstApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First App"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvRepeatLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/repeat_after_days"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repeat"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvWeatherLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/best_weather"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weather"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvAvoidLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_using_when"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvAvoid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avoid"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvBrandsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brand_examples"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/tvBrands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brands"
+            android:textSize="13sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

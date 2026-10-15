@@ -1,0 +1,1121 @@
+{
+  "diseases": [
+    {
+      "id": 1,
+      "class_name": "Bacterial Blight",
+      "crop": "Sugarcane",
+      "crop_ur": "گنا",
+      "display_name": "Bacterial Blight - Sugarcane",
+      "display_name_ur": "بیکٹیریل بلائٹ - گنا",
+      "category": "Bacterial Disease",
+      "category_ur": "بیکٹیریل بیماری",
+      "description": "A bacterial disease of sugarcane that causes white stripes on leaves and weakens the cane. It spreads through infected seed and dirty tools.",
+      "description_ur": "یہ گنے کی بیکٹیریل بیماری ہے جس سے پتوں پر سفید لکیریں بنتی ہیں اور گنا کمزور ہو جاتا ہے۔ یہ خراب بیج اور گندے اوزاروں سے پھیلتی ہے۔",
+      "symptoms": [
+        "Thin white stripes on leaves",
+        "Stripes turn reddish brown later",
+        "Young leaves dry from the tip",
+        "Cane becomes thin and weak",
+        "Red color inside stalk when cut",
+        "Extra small shoots on the stalk"
+      ],
+      "symptoms_ur": [
+        "پتوں پر سفید باریک لکیریں",
+        "بعد میں لکیریں سرخی مائل بھوری",
+        "چھوٹے پتے اوپر سے سوکھنا",
+        "گنا پتلا اور کمزور ہونا",
+        "کاٹنے پر تنے کے اندر سرخ رنگ",
+        "تنے پر اضافی چھوٹی شاخیں"
+      ],
+      "prevention": [
+        "Use certified healthy seed cane",
+        "Dip seed in hot water before planting",
+        "Clean cutting knives regularly",
+        "Rotate with a different crop",
+        "Remove and burn infected plants",
+        "Keep field drains clean"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ صحت مند بیج استعمال کریں",
+        "بونے سے پہلے بیج گرم پانی میں ڈبوئیں",
+        "کٹائی کے چاقو باقاعدگی سے صاف کریں",
+        "مختلف فصل سے فصل بدلیں",
+        "خراب پودے نکال کر جلا دیں",
+        "کھیت کی نالیاں صاف رکھیں"
+      ],
+      "treatment": [
+        {
+          "name": "Copper Oxychloride",
+          "name_ur": "کاپر آکسی کلورائیڈ",
+          "type": "Bactericide",
+          "type_ur": "بیکٹیریا کش دوا",
+          "usage": "Spray on leaves as protective treatment",
+          "usage_ur": "پتوں پر حفاظتی سپرے کریں"
+        },
+        {
+          "name": "Streptomycin Sulfate",
+          "name_ur": "سٹریپٹومائسن سلفیٹ",
+          "type": "Bactericide",
+          "type_ur": "بیکٹیریا کش دوا",
+          "usage": "Dip seed cane before planting",
+          "usage_ur": "بونے سے پہلے بیج کو ڈبوئیں"
+        }
+      ],
+      "estimated_recovery_time": "No full recovery, remove infected plants",
+      "estimated_recovery_time_ur": "مکمل صحت یابی نہیں، خراب پودے نکال دیں",
+      "severity": "High",
+      "severity_ur": "شدید"
+    },
+    {
+      "id": 2,
+      "class_name": "Corn___Common_Rust",
+      "crop": "Corn",
+      "crop_ur": "مکئی",
+      "display_name": "Corn Common Rust",
+      "display_name_ur": "مکئی کا عام زنگ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A fungal disease that makes small red-brown bumps on corn leaves. It grows fast in cool humid weather and can lower yield.",
+      "description_ur": "یہ پھپھوندی کی بیماری ہے جو مکئی کے پتوں پر چھوٹے سرخی مائل بھورے دانے بناتی ہے۔ یہ ٹھنڈے نم موسم میں تیزی سے بڑھتی ہے اور پیداوار کم کر سکتی ہے۔",
+      "symptoms": [
+        "Small red-brown bumps on leaves",
+        "Bumps on both sides of leaf",
+        "Orange powder released from bumps",
+        "Leaves turn yellow in bad cases",
+        "Bumps turn dark brown later",
+        "Leaf feels dusty when touched"
+      ],
+      "symptoms_ur": [
+        "پتوں پر چھوٹے سرخی مائل بھورے دانے",
+        "پتے کے دونوں طرف دانے",
+        "دانوں سے نارنجی سفوف نکلنا",
+        "شدید حالت میں پتوں کا پیلا ہونا",
+        "بعد میں دانوں کا گہرا بھورا ہونا",
+        "چھونے پر پتہ دھول دار محسوس ہونا"
+      ],
+      "prevention": [
+        "Plant rust resistant corn variety",
+        "Avoid too much nitrogen fertilizer",
+        "Keep proper plant spacing",
+        "Rotate crops each season",
+        "Remove old corn plants from field",
+        "Avoid overhead watering"
+      ],
+      "prevention_ur": [
+        "زنگ مزاحم مکئی کی قسم لگائیں",
+        "زیادہ نائٹروجن کھاد سے گریز کریں",
+        "پودوں کا فاصلہ صحیح رکھیں",
+        "ہر سیزن فصل بدلیں",
+        "کھیت سے پرانی مکئی ہٹا دیں",
+        "اوپر سے پانی دینے سے گریز کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Azoxystrobin",
+          "name_ur": "ایزوکسی سٹروبن",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray at first sign of pustules",
+          "usage_ur": "دانے نظر آتے ہی سپرے کریں"
+        },
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply before tasseling stage",
+          "usage_ur": "پھول نکلنے سے پہلے لگائیں"
+        },
+        {
+          "name": "Mancozeb",
+          "name_ur": "مینکوزیب",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray as protective treatment",
+          "usage_ur": "حفاظتی طور پر سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "10-20 days",
+      "estimated_recovery_time_ur": "10-20 دن",
+      "severity": "Moderate",
+      "severity_ur": "درمیانہ"
+    },
+    {
+      "id": 3,
+      "class_name": "Corn___Gray_Leaf_Spot",
+      "crop": "Corn",
+      "crop_ur": "مکئی",
+      "display_name": "Corn Gray Leaf Spot",
+      "display_name_ur": "مکئی کے پتوں کا سرمئی دھبہ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A fungal disease making rectangle shaped gray spots on corn leaves. It is worse when corn is grown in the same field every season.",
+      "description_ur": "یہ پھپھوندی کی بیماری مکئی کے پتوں پر مستطیل سرمئی دھبے بناتی ہے۔ یہ زیادہ خراب ہوتی ہے جب ایک ہی کھیت میں ہر سیزن مکئی لگائی جائے۔",
+      "symptoms": [
+        "Tan rectangle shaped spots on leaves",
+        "Spots follow leaf vein lines",
+        "Spots join making large dead areas",
+        "Gray fungal layer in humid weather",
+        "Lower leaves affected first",
+        "Leaf dies early reducing yield"
+      ],
+      "symptoms_ur": [
+        "پتوں پر مٹی رنگ کے مستطیل دھبے",
+        "دھبے پتے کی رگوں کے ساتھ بننا",
+        "دھبے مل کر بڑے مردہ حصے بنانا",
+        "نم موسم میں سرمئی پھپھوندی کی تہہ",
+        "نچلے پتے پہلے متاثر ہونا",
+        "پتہ جلدی مرنا اور پیداوار کم ہونا"
+      ],
+      "prevention": [
+        "Plant resistant corn varieties",
+        "Rotate crop away from corn yearly",
+        "Plow field to bury old leaves",
+        "Avoid corn after corn repeatedly",
+        "Keep wide row spacing",
+        "Remove infected residue after harvest"
+      ],
+      "prevention_ur": [
+        "مزاحم مکئی کی اقسام لگائیں",
+        "ہر سال مکئی سے مختلف فصل لگائیں",
+        "پرانے پتے دبانے کے لیے ہل چلائیں",
+        "بار بار مکئی کے بعد مکئی نہ لگائیں",
+        "قطاروں کا چوڑا فاصلہ رکھیں",
+        "فصل کاٹنے کے بعد خراب فضلہ ہٹا دیں"
+      ],
+      "treatment": [
+        {
+          "name": "Azoxystrobin",
+          "name_ur": "ایزوکسی سٹروبن",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray early at first symptoms",
+          "usage_ur": "ابتدائی علامات پر جلد سپرے کریں"
+        },
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply as protective spray",
+          "usage_ur": "حفاظتی سپرے کے طور پر لگائیں"
+        },
+        {
+          "name": "Mancozeb",
+          "name_ur": "مینکوزیب",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray before disease starts",
+          "usage_ur": "بیماری شروع ہونے سے پہلے سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "2-4 weeks",
+      "estimated_recovery_time_ur": "2-4 ہفتے",
+      "severity": "High",
+      "severity_ur": "شدید"
+    },
+    {
+      "id": 4,
+      "class_name": "Corn___Healthy",
+      "crop": "Corn",
+      "crop_ur": "مکئی",
+      "display_name": "Corn Healthy",
+      "display_name_ur": "صحت مند مکئی",
+      "category": "Healthy Crop",
+      "category_ur": "صحت مند فصل",
+      "description": "This corn plant is healthy with green leaves and strong growth. Keep following good farming practices to maintain plant health.",
+      "description_ur": "یہ مکئی کا پودا صحت مند ہے، اس کے پتے سبز اور نشوونما مضبوط ہے۔ پودے کی صحت برقرار رکھنے کے لیے اچھے طریقے جاری رکھیں۔",
+      "symptoms": [
+        "Even deep green leaf color",
+        "Leaves stand straight and firm",
+        "Smooth leaf surface, no spots",
+        "Strong stalk holding plant upright",
+        "Good root system in soil",
+        "Timely tasseling and silking"
+      ],
+      "symptoms_ur": [
+        "یکساں گہرا سبز پتوں کا رنگ",
+        "پتے سیدھے اور مضبوط",
+        "ہموار پتے، کوئی دھبے نہیں",
+        "پودے کو سیدھا رکھنے والا مضبوط تنا",
+        "مٹی میں اچھا جڑ کا نظام",
+        "وقت پر پھول اور ریشے نکلنا"
+      ],
+      "prevention": [
+        "Use balanced fertilizer as per soil test",
+        "Keep watering schedule consistent",
+        "Check field regularly for pests",
+        "Rotate crops for soil health",
+        "Use certified quality seed",
+        "Control weeds early"
+      ],
+      "prevention_ur": [
+        "مٹی کی جانچ کے مطابق متوازن کھاد استعمال کریں",
+        "پانی کا شیڈول مستقل رکھیں",
+        "کیڑوں کے لیے باقاعدگی سے کھیت چیک کریں",
+        "مٹی کی صحت کے لیے فصل بدلیں",
+        "سرٹیفائیڈ معیاری بیج استعمال کریں",
+        "جڑی بوٹیوں پر جلد قابو پائیں"
+      ],
+      "treatment": [],
+      "estimated_recovery_time": "Not Applicable",
+      "estimated_recovery_time_ur": "لاگو نہیں",
+      "severity": "None",
+      "severity_ur": "کوئی نہیں"
+    },
+    {
+      "id": 5,
+      "class_name": "Corn___Northern_Leaf_Blight",
+      "crop": "Corn",
+      "crop_ur": "مکئی",
+      "display_name": "Corn Northern Leaf Blight",
+      "display_name_ur": "مکئی کا نادرن لیف بلائٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A fungal disease that makes long cigar shaped gray spots on corn leaves. It spreads fast in cool wet weather and can hurt yield badly.",
+      "description_ur": "یہ پھپھوندی کی بیماری مکئی کے پتوں پر لمبے سگار نما سرمئی دھبے بناتی ہے۔ یہ ٹھنڈے نم موسم میں تیزی سے پھیلتی ہے اور پیداوار کو بری طرح نقصان پہنچا سکتی ہے۔",
+      "symptoms": [
+        "Long cigar shaped gray-tan spots",
+        "Spots 2 to 15 cm long",
+        "Spots line up along leaf veins",
+        "Dark spore layer in wet weather",
+        "Spots join making large dead areas",
+        "Lower leaves affected first"
+      ],
+      "symptoms_ur": [
+        "لمبے سگار نما سرمئی دھبے",
+        "دھبے 2 سے 15 سینٹی میٹر لمبے",
+        "دھبے رگوں کے ساتھ قطار میں",
+        "نم موسم میں گہری تہہ",
+        "دھبے مل کر بڑے مردہ حصے بنانا",
+        "نچلے پتے پہلے متاثر ہونا"
+      ],
+      "prevention": [
+        "Plant resistant corn varieties",
+        "Rotate corn with other crops",
+        "Plow old leaves into soil",
+        "Avoid corn after corn repeatedly",
+        "Keep proper plant spacing",
+        "Check field in cool wet weather"
+      ],
+      "prevention_ur": [
+        "مزاحم مکئی کی اقسام لگائیں",
+        "مکئی کو دوسری فصل سے بدلیں",
+        "پرانے پتے مٹی میں دبائیں",
+        "بار بار مکئی کے بعد مکئی نہ لگائیں",
+        "پودوں کا فاصلہ صحیح رکھیں",
+        "ٹھنڈے نم موسم میں کھیت چیک کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Azoxystrobin",
+          "name_ur": "ایزوکسی سٹروبن",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray early when spots appear",
+          "usage_ur": "دھبے نظر آتے ہی سپرے کریں"
+        },
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply as protective spray",
+          "usage_ur": "حفاظتی سپرے کے طور پر لگائیں"
+        },
+        {
+          "name": "Mancozeb",
+          "name_ur": "مینکوزیب",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray before disease onset",
+          "usage_ur": "بیماری شروع ہونے سے پہلے سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "2-4 weeks",
+      "estimated_recovery_time_ur": "2-4 ہفتے",
+      "severity": "High",
+      "severity_ur": "شدید"
+    },
+    {
+      "id": 6,
+      "class_name": "Healthy",
+      "crop": "Sugarcane",
+      "crop_ur": "گنا",
+      "display_name": "Healthy - Sugarcane",
+      "display_name_ur": "صحت مند - گنا",
+      "category": "Healthy Crop",
+      "category_ur": "صحت مند فصل",
+      "description": "This sugarcane plant is healthy with strong stalks and green leaves. Continue good practices to keep the crop healthy.",
+      "description_ur": "یہ گنے کا پودا صحت مند ہے، اس کے تنے مضبوط اور پتے سبز ہیں۔ فصل کو صحت مند رکھنے کے لیے اچھے طریقے جاری رکھیں۔",
+      "symptoms": [
+        "Even deep green leaf color",
+        "Thick strong stalks with clear nodes",
+        "Smooth leaf surface, no stripes",
+        "Firm upright growth",
+        "Healthy white color inside stalk",
+        "Good number of new shoots"
+      ],
+      "symptoms_ur": [
+        "یکساں گہرا سبز پتوں کا رنگ",
+        "واضح گانٹھوں کے ساتھ موٹے مضبوط تنے",
+        "ہموار پتے، کوئی لکیریں نہیں",
+        "مضبوط سیدھی نشوونما",
+        "تنے کے اندر صحت مند سفید رنگ",
+        "نئی شاخوں کی اچھی تعداد"
+      ],
+      "prevention": [
+        "Use certified disease-free seed cane",
+        "Keep fertilizer schedule balanced",
+        "Keep watering consistent",
+        "Rotate crops sometimes",
+        "Check field regularly",
+        "Clean farm tools regularly"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ صحت مند بیج استعمال کریں",
+        "کھاد کا شیڈول متوازن رکھیں",
+        "پانی دینا مستقل رکھیں",
+        "کبھی کبھار فصل بدلیں",
+        "باقاعدگی سے کھیت چیک کریں",
+        "فارم کے اوزار باقاعدگی سے صاف کریں"
+      ],
+      "treatment": [],
+      "estimated_recovery_time": "Not Applicable",
+      "estimated_recovery_time_ur": "لاگو نہیں",
+      "severity": "None",
+      "severity_ur": "کوئی نہیں"
+    },
+    {
+      "id": 7,
+      "class_name": "Potato___Early_Blight",
+      "crop": "Potato",
+      "crop_ur": "آلو",
+      "display_name": "Potato Early Blight",
+      "display_name_ur": "آلو کا ارلی بلائٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A common fungal disease that makes dark ring shaped spots on potato leaves. It mostly hits older lower leaves first and spreads in warm wet weather.",
+      "description_ur": "یہ آلو کی ایک عام پھپھوندی کی بیماری ہے جو پتوں پر گہرے دائرے نما دھبے بناتی ہے۔ یہ زیادہ تر پہلے پرانے نچلے پتوں پر حملہ کرتی ہے اور گرم گیلے موسم میں پھیلتی ہے۔",
+      "symptoms": [
+        "Dark brown ring shaped spots",
+        "Yellow ring around each spot",
+        "Spots start on older lower leaves",
+        "Spots grow bigger and join together",
+        "Leaves turn yellow and fall early",
+        "Dark spots on stem near soil"
+      ],
+      "symptoms_ur": [
+        "گہرے بھورے دائرے نما دھبے",
+        "ہر دھبے کے گرد پیلا دائرہ",
+        "دھبے پرانے نچلے پتوں سے شروع",
+        "دھبے بڑے ہو کر مل جانا",
+        "پتے پیلے ہو کر جلدی گرنا",
+        "مٹی کے قریب تنے پر گہرے دھبے"
+      ],
+      "prevention": [
+        "Use certified disease-free seed potatoes",
+        "Rotate crop, avoid potato for 2-3 years",
+        "Give balanced fertilizer with enough nitrogen",
+        "Keep proper plant spacing",
+        "Remove infected plant waste after harvest",
+        "Avoid overhead irrigation"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ صحت مند بیج آلو استعمال کریں",
+        "2-3 سال آلو نہ لگائیں، فصل بدلیں",
+        "کافی نائٹروجن کے ساتھ متوازن کھاد دیں",
+        "پودوں کا فاصلہ صحیح رکھیں",
+        "فصل کاٹنے کے بعد خراب فضلہ ہٹا دیں",
+        "اوپر سے پانی چھڑکنے سے گریز کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Chlorothalonil",
+          "name_ur": "کلوروتھالونل",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray at early symptom appearance",
+          "usage_ur": "ابتدائی علامات پر سپرے کریں"
+        },
+        {
+          "name": "Mancozeb",
+          "name_ur": "مینکوزیب",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply as protective spray",
+          "usage_ur": "حفاظتی سپرے کے طور پر لگائیں"
+        },
+        {
+          "name": "Azoxystrobin",
+          "name_ur": "ایزوکسی سٹروبن",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray every 10-14 days as needed",
+          "usage_ur": "ضرورت کے مطابق ہر 10-14 دن بعد سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "10-20 days",
+      "estimated_recovery_time_ur": "10-20 دن",
+      "severity": "Moderate",
+      "severity_ur": "درمیانہ"
+    },
+    {
+      "id": 8,
+      "class_name": "Potato___Healthy",
+      "crop": "Potato",
+      "crop_ur": "آلو",
+      "display_name": "Potato Healthy",
+      "display_name_ur": "صحت مند آلو",
+      "category": "Healthy Crop",
+      "category_ur": "صحت مند فصل",
+      "description": "This potato plant is healthy with green leaves and good growth. Keep following good practices for healthy tuber development.",
+      "description_ur": "یہ آلو کا پودا صحت مند ہے، اس کے پتے سبز اور نشوونما اچھی ہے۔ صحت مند غدود کی نشوونما کے لیے اچھے طریقے جاری رکھیں۔",
+      "symptoms": [
+        "Even deep green leaf color",
+        "Compact bushy growth",
+        "Smooth leaf surface, no spots",
+        "No wilting or yellowing",
+        "Good root system supporting tubers",
+        "Firm smooth skin tubers"
+      ],
+      "symptoms_ur": [
+        "یکساں گہرا سبز پتوں کا رنگ",
+        "گھنی جھاڑی دار نشوونما",
+        "ہموار پتے، کوئی دھبے نہیں",
+        "مرجھاؤ یا پیلا پن نہیں",
+        "غدود کی مدد کرنے والا اچھا جڑ کا نظام",
+        "مضبوط ہموار جلد والے غدود"
+      ],
+      "prevention": [
+        "Use certified disease-free seed potatoes",
+        "Keep fertilizer schedule balanced",
+        "Keep watering consistent",
+        "Rotate crops, avoid repeat potato",
+        "Hill soil properly around plants",
+        "Check field regularly"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ صحت مند بیج آلو استعمال کریں",
+        "کھاد کا شیڈول متوازن رکھیں",
+        "پانی دینا مستقل رکھیں",
+        "بار بار آلو نہ لگائیں، فصل بدلیں",
+        "پودوں کے گرد مٹی صحیح طرح چڑھائیں",
+        "باقاعدگی سے کھیت چیک کریں"
+      ],
+      "treatment": [],
+      "estimated_recovery_time": "Not Applicable",
+      "estimated_recovery_time_ur": "لاگو نہیں",
+      "severity": "None",
+      "severity_ur": "کوئی نہیں"
+    },
+    {
+      "id": 9,
+      "class_name": "Potato___Late_Blight",
+      "crop": "Potato",
+      "crop_ur": "آلو",
+      "display_name": "Potato Late Blight",
+      "display_name_ur": "آلو کا لیٹ بلائٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A very dangerous disease that can destroy a whole potato field within days in cool wet weather. Quick action is needed to save the crop.",
+      "description_ur": "یہ ایک بہت خطرناک بیماری ہے جو ٹھنڈے نم موسم میں چند دنوں میں پورا آلو کا کھیت تباہ کر سکتی ہے۔ فصل بچانے کے لیے فوری اقدام ضروری ہے۔",
+      "symptoms": [
+        "Water soaked dark green spots on leaves",
+        "Spots quickly turn brown to black",
+        "White fungal growth under leaves",
+        "Bad smell from infected plants",
+        "Dark spots on stem that can break it",
+        "Fast wilting of whole plant"
+      ],
+      "symptoms_ur": [
+        "پتوں پر پانی بھرے گہرے سبز دھبے",
+        "دھبے تیزی سے بھورے سے کالے ہونا",
+        "پتوں کے نیچے سفید پھپھوندی",
+        "خراب پودوں سے بدبو",
+        "تنے پر گہرے دھبے جو اسے توڑ سکتے ہیں",
+        "پورے پودے کا تیزی سے مرجھانا"
+      ],
+      "prevention": [
+        "Use certified disease-free seed potatoes",
+        "Plant resistant potato varieties if available",
+        "Rotate crop, avoid potato for 2-3 years",
+        "Destroy wild potato plants and waste piles",
+        "Avoid overhead irrigation, especially evening",
+        "Spray fungicide before risky weather starts"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ صحت مند بیج آلو استعمال کریں",
+        "اگر دستیاب ہو تو مزاحم اقسام لگائیں",
+        "2-3 سال آلو نہ لگائیں، فصل بدلیں",
+        "جنگلی آلو اور فضلے کے ڈھیر ختم کریں",
+        "خاص طور پر شام کو اوپر سے پانی چھڑکنے سے گریز کریں",
+        "خطرناک موسم شروع ہونے سے پہلے فنگسائیڈ سپرے کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Chlorothalonil",
+          "name_ur": "کلوروتھالونل",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray immediately at first sign",
+          "usage_ur": "پہلی نشانی پر فوری سپرے کریں"
+        },
+        {
+          "name": "Metalaxyl + Mancozeb",
+          "name_ur": "میٹالیکسل + مینکوزیب",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply for active infection control",
+          "usage_ur": "فعال انفیکشن کے قابو کے لیے لگائیں"
+        },
+        {
+          "name": "Cymoxanil",
+          "name_ur": "سائموکسانل",
+          "type": "Fungicide",
+          "type ur": "فنگسائیڈ",
+          "usage": "Spray during outbreak conditions",
+          "usage_ur": "حملے کی حالت میں سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "No recovery once infected, act fast",
+      "estimated_recovery_time_ur": "انفیکشن کے بعد صحت یابی نہیں، فوری اقدام کریں",
+      "severity": "High",
+      "severity_ur": "شدید"
+    },
+    {
+      "id": 10,
+      "class_name": "Red Rot",
+      "crop": "Sugarcane",
+      "crop_ur": "گنا",
+      "display_name": "Red Rot - Sugarcane",
+      "display_name_ur": "ریڈ روٹ - گنا",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A destructive disease that turns the inside of sugarcane stalks red. It is worse in ratoon crops and badly hurts sugar yield.",
+      "description_ur": "یہ تباہ کن بیماری گنے کے تنے کے اندر کو سرخ کر دیتی ہے۔ یہ راتون فصل میں زیادہ خراب ہوتی ہے اور چینی کی پیداوار کو شدید نقصان پہنچاتی ہے۔",
+      "symptoms": [
+        "Red color inside stalk when cut",
+        "White bands crossing the red part",
+        "Top leaves turning yellow and drying",
+        "Sour smell from cut cane",
+        "Hollow parts inside the stalk",
+        "Wilting leaves on infected cane"
+      ],
+      "symptoms_ur": [
+        "کاٹنے پر تنے کے اندر سرخ رنگ",
+        "سرخ حصے پر سفید دھاریاں",
+        "اوپر کے پتوں کا پیلا ہو کر سوکھنا",
+        "کٹے ہوئے گنے سے کھٹی بو",
+        "تنے کے اندر خالی حصے",
+        "خراب گنے پر پتوں کا مرجھانا"
+      ],
+      "prevention": [
+        "Use certified disease-free seed cane",
+        "Treat seed with hot water or fungicide",
+        "Improve field drainage",
+        "Do not ratoon in infected fields",
+        "Remove and burn infected stalks",
+        "Clean cutting tools between plants"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ صحت مند بیج استعمال کریں",
+        "بیج کو گرم پانی یا فنگسائیڈ سے علاج کریں",
+        "کھیت کی نکاسی بہتر بنائیں",
+        "خراب کھیت میں راتون نہ لیں",
+        "خراب تنے نکال کر جلا دیں",
+        "پودوں کے درمیان کٹائی کے اوزار صاف کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Carbendazim",
+          "name_ur": "کاربینڈازم",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Dip seed cane before planting",
+          "usage_ur": "بونے سے پہلے بیج کو ڈبوئیں"
+        },
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray on standing crop",
+          "usage_ur": "کھڑی فصل پر سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "No recovery, remove infected stalks",
+      "estimated_recovery_time_ur": "صحت یابی نہیں، خراب تنے نکال دیں",
+      "severity": "High",
+      "severity_ur": "شدید"
+    },
+    {
+      "id": 11,
+      "class_name": "Rice___Brown_Spot",
+      "crop": "Rice",
+      "crop_ur": "چاول",
+      "display_name": "Rice Brown Spot",
+      "display_name_ur": "چاول کا براؤن سپاٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A fungal disease that makes brown spots on rice leaves and grains. It mostly hits weak plants low in potassium.",
+      "description_ur": "یہ پھپھوندی کی بیماری چاول کے پتوں اور دانوں پر بھورے دھبے بناتی ہے۔ یہ زیادہ تر پوٹاشیم کی کمی والے کمزور پودوں پر حملہ کرتی ہے۔",
+      "symptoms": [
+        "Oval brown spots with gray center",
+        "Yellow ring around each spot",
+        "Spots grow bigger and join together",
+        "Dark brown spots on rice grains",
+        "Black color on nursery seedlings",
+        "Poor grain filling with bad kernels"
+      ],
+      "symptoms_ur": [
+        "سرمئی مرکز والے بیضوی بھورے دھبے",
+        "ہر دھبے کے گرد پیلا دائرہ",
+        "دھبے بڑے ہو کر مل جانا",
+        "چاول کے دانوں پر گہرے بھورے دھبے",
+        "پنیری میں پودوں کا کالا ہونا",
+        "خراب دانوں کے ساتھ ناقص دانہ بھرنا"
+      ],
+      "prevention": [
+        "Use certified disease-free treated seed",
+        "Give balanced fertilizer with enough potassium",
+        "Manage water well, avoid drought stress",
+        "Treat seed with fungicide before sowing",
+        "Improve soil with organic matter",
+        "Remove infected crop residue after harvest"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ صحت مند علاج شدہ بیج استعمال کریں",
+        "کافی پوٹاشیم کے ساتھ متوازن کھاد دیں",
+        "پانی کا اچھا انتظام کریں، کمی سے بچیں",
+        "بونے سے پہلے بیج کو فنگسائیڈ سے علاج کریں",
+        "نامیاتی مادے سے مٹی بہتر بنائیں",
+        "فصل کاٹنے کے بعد خراب فضلہ ہٹا دیں"
+      ],
+      "treatment": [
+        {
+          "name": "Mancozeb",
+          "name_ur": "مینکوزیب",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray at early symptom appearance",
+          "usage_ur": "ابتدائی علامات پر سپرے کریں"
+        },
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply as protective spray",
+          "usage_ur": "حفاظتی سپرے کے طور پر لگائیں"
+        },
+        {
+          "name": "Carbendazim",
+          "name_ur": "کاربینڈازم",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Use as seed treatment before sowing",
+          "usage_ur": "بونے سے پہلے بیج کے علاج کے لیے استعمال کریں"
+        }
+      ],
+      "estimated_recovery_time": "10-20 days",
+      "estimated_recovery_time_ur": "10-20 دن",
+      "severity": "Moderate",
+      "severity_ur": "درمیانہ"
+    },
+    {
+      "id": 12,
+      "class_name": "Rice___Healthy",
+      "crop": "Rice",
+      "crop_ur": "چاول",
+      "display_name": "Rice Healthy",
+      "display_name_ur": "صحت مند چاول",
+      "category": "Healthy Crop",
+      "category_ur": "صحت مند فصل",
+      "description": "This rice plant is healthy with strong tillers and green leaves. Keep following good practices for good grain yield.",
+      "description_ur": "یہ چاول کا پودا صحت مند ہے، اس کی شاخیں مضبوط اور پتے سبز ہیں۔ اچھی دانے کی پیداوار کے لیے اچھے طریقے جاری رکھیں۔",
+      "symptoms": [
+        "Even deep green leaf color",
+        "Strong healthy tillering",
+        "Smooth leaf surface, no spots",
+        "Upright leaves, no wilting",
+        "Good root system in flooded soil",
+        "Well filled grains at maturity"
+      ],
+      "symptoms_ur": [
+        "یکساں گہرا سبز پتوں کا رنگ",
+        "مضبوط صحت مند شاخیں",
+        "ہموار پتے، کوئی دھبے نہیں",
+        "سیدھے پتے، مرجھاؤ نہیں",
+        "بھرے پانی والی مٹی میں اچھا جڑ کا نظام",
+        "پکنے پر اچھی طرح بھرے دانے"
+      ],
+      "prevention": [
+        "Use certified quality seed",
+        "Keep fertilizer schedule balanced",
+        "Manage water properly through season",
+        "Check field regularly",
+        "Rotate crops where possible",
+        "Level field for even water spread"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ معیاری بیج استعمال کریں",
+        "کھاد کا شیڈول متوازن رکھیں",
+        "پورے سیزن پانی کا صحیح انتظام کریں",
+        "باقاعدگی سے کھیت چیک کریں",
+        "جہاں ممکن ہو فصل بدلیں",
+        "پانی کی یکساں تقسیم کے لیے کھیت ہموار کریں"
+      ],
+      "treatment": [],
+      "estimated_recovery_time": "Not Applicable",
+      "estimated_recovery_time_ur": "لاگو نہیں",
+      "severity": "None",
+      "severity_ur": "کوئی نہیں"
+    },
+    {
+      "id": 13,
+      "class_name": "Rice___Leaf_Blast",
+      "crop": "Rice",
+      "crop_ur": "چاول",
+      "display_name": "Rice Leaf Blast",
+      "display_name_ur": "چاول کا لیف بلاسٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A serious disease making diamond shaped spots on rice leaves. It spreads fast in humid weather and can kill young plants quickly.",
+      "description_ur": "یہ ایک سنگین بیماری ہے جو چاول کے پتوں پر ہیرے کی شکل کے دھبے بناتی ہے۔ یہ نم موسم میں تیزی سے پھیلتی ہے اور چھوٹے پودوں کو جلدی مار سکتی ہے۔",
+      "symptoms": [
+        "White to gray-green spots grow fast",
+        "Diamond shaped spots with pointed ends",
+        "Gray centers with brown edges on spots",
+        "Spots join killing whole leaves",
+        "Leaf tips drying and curling",
+        "Stunted growth in bad infections"
+      ],
+      "symptoms_ur": [
+        "سفید سے سرمئی سبز دھبے تیزی سے بڑھنا",
+        "نوکدار سروں کے ساتھ ہیرے نما دھبے",
+        "بھورے کناروں کے ساتھ سرمئی مرکز",
+        "دھبے مل کر پورا پتہ مار دینا",
+        "پتوں کے کنارے کا سوکھنا اور مڑنا",
+        "شدید انفیکشن میں رکی ہوئی نشوونما"
+      ],
+      "prevention": [
+        "Use certified blast resistant rice varieties",
+        "Treat seed with fungicide before sowing",
+        "Avoid too much nitrogen fertilizer",
+        "Keep proper plant spacing",
+        "Manage water well, avoid water stress",
+        "Remove infected residue and wild plants"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ بلاسٹ مزاحم چاول کی اقسام استعمال کریں",
+        "بونے سے پہلے بیج کو فنگسائیڈ سے علاج کریں",
+        "زیادہ نائٹروجن کھاد سے گریز کریں",
+        "پودوں کا فاصلہ صحیح رکھیں",
+        "پانی کا اچھا انتظام کریں، کمی سے بچیں",
+        "خراب فضلہ اور جنگلی پودے ہٹا دیں"
+      ],
+      "treatment": [
+        {
+          "name": "Tricyclazole",
+          "name_ur": "ٹرائی سائیکلازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray at early symptom appearance",
+          "usage_ur": "ابتدائی علامات پر سپرے کریں"
+        },
+        {
+          "name": "Isoprothiolane",
+          "name_ur": "آئسوپروتھیولین",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply as protective spray",
+          "usage_ur": "حفاظتی سپرے کے طور پر لگائیں"
+        },
+        {
+          "name": "Carbendazim",
+          "name_ur": "کاربینڈازم",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Use as seed treatment before sowing",
+          "usage_ur": "بونے سے پہلے بیج کے علاج کے لیے استعمال کریں"
+        }
+      ],
+      "estimated_recovery_time": "10-20 days",
+      "estimated_recovery_time_ur": "10-20 دن",
+      "severity": "High",
+      "severity_ur": "شدید"
+    },
+    {
+      "id": 14,
+      "class_name": "Rice___Neck_Blast",
+      "crop": "Rice",
+      "crop_ur": "چاول",
+      "display_name": "Rice Neck Blast",
+      "display_name_ur": "چاول کا نیک بلاسٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A severe disease that attacks the panicle neck of rice, breaking it and causing empty grains. It causes major yield loss if untreated.",
+      "description_ur": "یہ ایک شدید بیماری ہے جو چاول کی بالی کی گردن پر حملہ کرتی ہے، اسے توڑ دیتی ہے اور خالی دانے بناتی ہے۔ اگر علاج نہ کیا جائے تو بڑا نقصان ہوتا ہے۔",
+      "symptoms": [
+        "Dark brown to black spot at neck base",
+        "Neck node squeezed, blocking nutrients",
+        "Panicle breaking or drooping",
+        "Empty or half filled grains above spot",
+        "Whitish or straw colored panicles",
+        "Blackened node visible on stem"
+      ],
+      "symptoms_ur": [
+        "گردن کی بنیاد پر گہرا بھورا سے کالا دھبہ",
+        "گردن کی گانٹھ دبنا، غذائیت رکنا",
+        "بالی کا ٹوٹنا یا جھکنا",
+        "دھبے کے اوپر خالی یا آدھے بھرے دانے",
+        "سفید یا بھوسے رنگ کی بالیاں",
+        "تنے پر کالی گانٹھ نظر آنا"
+      ],
+      "prevention": [
+        "Plant blast resistant rice varieties",
+        "Control leaf blast early in season",
+        "Avoid too much nitrogen near flowering",
+        "Spray fungicide at booting and heading stages",
+        "Keep proper plant spacing",
+        "Manage water well through flowering"
+      ],
+      "prevention_ur": [
+        "بلاسٹ مزاحم چاول کی اقسام لگائیں",
+        "سیزن میں جلد لیف بلاسٹ قابو کریں",
+        "پھول نکلنے کے قریب زیادہ نائٹروجن سے بچیں",
+        "بالی بننے اور نکلنے پر فنگسائیڈ سپرے کریں",
+        "پودوں کا فاصلہ صحیح رکھیں",
+        "پھول نکلنے تک پانی کا اچھا انتظام کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Tricyclazole",
+          "name_ur": "ٹرائی سائیکلازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray preventively at booting stage",
+          "usage_ur": "بالی بننے کے مرحلے پر احتیاطی سپرے کریں"
+        },
+        {
+          "name": "Isoprothiolane",
+          "name_ur": "آئسوپروتھیولین",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply before panicle emergence",
+          "usage_ur": "بالی نکلنے سے پہلے لگائیں"
+        },
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray during flowering stage",
+          "usage_ur": "پھول نکلنے کے دوران سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "No recovery once infected",
+      "estimated_recovery_time_ur": "انفیکشن کے بعد صحت یابی نہیں",
+      "severity": "High",
+      "severity_ur": "شدید"
+    },
+    {
+      "id": 15,
+      "class_name": "Wheat___Brown_Rust",
+      "crop": "Wheat",
+      "crop_ur": "گندم",
+      "display_name": "Wheat Brown Rust",
+      "display_name_ur": "گندم کا براؤن رسٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A fungal disease also called leaf rust that makes orange-brown spots on wheat leaves. It spreads in cool humid weather and can lower grain yield.",
+      "description_ur": "یہ پھپھوندی کی بیماری ہے جسے لیف رسٹ بھی کہتے ہیں، گندم کے پتوں پر نارنجی بھورے دھبے بناتی ہے۔ یہ ٹھنڈے نم موسم میں پھیلتی ہے اور دانے کی پیداوار کم کر سکتی ہے۔",
+      "symptoms": [
+        "Round orange-brown bumps on upper leaf",
+        "Bumps scattered randomly on leaf",
+        "Yellow ring sometimes around bumps",
+        "Orange-brown powder from broken bumps",
+        "Leaves turn yellow and dry early",
+        "Smaller grains in severe cases"
+      ],
+      "symptoms_ur": [
+        "پتے کے اوپری حصے پر گول نارنجی بھورے دانے",
+        "پتے پر بے ترتیب پھیلے ہوئے دانے",
+        "بعض اوقات دانوں کے گرد پیلا دائرہ",
+        "دانے پھٹ کر نارنجی بھورا سفوف",
+        "پتوں کا جلدی پیلا ہو کر سوکھنا",
+        "شدید حالات میں چھوٹے دانے"
+      ],
+      "prevention": [
+        "Plant rust resistant wheat varieties",
+        "Avoid too much nitrogen fertilizer",
+        "Keep proper plant spacing",
+        "Remove wild wheat plants",
+        "Check field regularly in cool weather",
+        "Plant at recommended dates"
+      ],
+      "prevention_ur": [
+        "زنگ مزاحم گندم کی اقسام لگائیں",
+        "زیادہ نائٹروجن کھاد سے گریز کریں",
+        "پودوں کا فاصلہ صحیح رکھیں",
+        "جنگلی گندم کے پودے ہٹا دیں",
+        "ٹھنڈے موسم میں باقاعدگی سے کھیت چیک کریں",
+        "تجویز کردہ تاریخ پر بوائی کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray at first sign of pustules",
+          "usage_ur": "دانے نظر آتے ہی سپرے کریں"
+        },
+        {
+          "name": "Tebuconazole",
+          "name_ur": "ٹیبوکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply during tillering to stem elongation",
+          "usage_ur": "شاخیں نکلنے سے تنے کے بڑھنے تک لگائیں"
+        },
+        {
+          "name": "Mancozeb",
+          "name_ur": "مینکوزیب",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray as protective treatment",
+          "usage_ur": "حفاظتی طور پر سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "10-20 days",
+      "estimated_recovery_time_ur": "10-20 دن",
+      "severity": "Moderate",
+      "severity_ur": "درمیانہ"
+    },
+    {
+      "id": 16,
+      "class_name": "Wheat___Healthy",
+      "crop": "Wheat",
+      "crop_ur": "گندم",
+      "display_name": "Wheat Healthy",
+      "display_name_ur": "صحت مند گندم",
+      "category": "Healthy Crop",
+      "category_ur": "صحت مند فصل",
+      "description": "This wheat plant is healthy with strong tillers and green leaves. Keep following good practices for good grain yield.",
+      "description_ur": "یہ گندم کا پودا صحت مند ہے، اس کی شاخیں مضبوط اور پتے سبز ہیں۔ اچھی دانے کی پیداوار کے لیے اچھے طریقے جاری رکھیں۔",
+      "symptoms": [
+        "Even deep green leaf color",
+        "Strong healthy tillering",
+        "Smooth leaf surface, no pustules",
+        "Upright leaves, no wilting",
+        "Good root system anchoring plant",
+        "Well filled plump grains at maturity"
+      ],
+      "symptoms_ur": [
+        "یکساں گہرا سبز پتوں کا رنگ",
+        "مضبوط صحت مند شاخیں",
+        "ہموار پتے، کوئی دانے نہیں",
+        "سیدھے پتے، مرجھاؤ نہیں",
+        "پودے کو تھامنے والا اچھا جڑ کا نظام",
+        "پکنے پر اچھی طرح بھرے موٹے دانے"
+      ],
+      "prevention": [
+        "Use certified quality seed",
+        "Keep fertilizer schedule balanced",
+        "Keep watering consistent",
+        "Check field regularly",
+        "Rotate crops for soil health",
+        "Control weeds early"
+      ],
+      "prevention_ur": [
+        "سرٹیفائیڈ معیاری بیج استعمال کریں",
+        "کھاد کا شیڈول متوازن رکھیں",
+        "پانی دینا مستقل رکھیں",
+        "باقاعدگی سے کھیت چیک کریں",
+        "مٹی کی صحت کے لیے فصل بدلیں",
+        "جڑی بوٹیوں پر جلد قابو پائیں"
+      ],
+      "treatment": [],
+      "estimated_recovery_time": "Not Applicable",
+      "estimated_recovery_time_ur": "لاگو نہیں",
+      "severity": "None",
+      "severity_ur": "کوئی نہیں"
+    },
+    {
+      "id": 17,
+      "class_name": "Wheat___Yellow_Rust",
+      "crop": "Wheat",
+      "crop_ur": "گندم",
+      "display_name": "Wheat Yellow Rust",
+      "display_name_ur": "گندم کا یلو رسٹ",
+      "category": "Fungal Disease",
+      "category_ur": "پھپھوندی کی بیماری",
+      "description": "A fungal disease also called stripe rust that makes yellow stripes on wheat leaves. It spreads very fast in cool weather and is a major concern in Pakistan.",
+      "description_ur": "یہ پھپھوندی کی بیماری ہے جسے سٹرائپ رسٹ بھی کہتے ہیں، گندم کے پتوں پر پیلی دھاریاں بناتی ہے۔ یہ ٹھنڈے موسم میں بہت تیزی سے پھیلتی ہے اور پاکستان میں ایک بڑا مسئلہ ہے۔",
+      "symptoms": [
+        "Narrow yellow pustules in stripes",
+        "Stripes running parallel on leaf",
+        "Powdery yellow spore mass on leaf",
+        "Pustules mainly on upper leaf surface",
+        "Leaves turn yellow and dry early",
+        "Shriveled light grains in bad cases"
+      ],
+      "symptoms_ur": [
+        "دھاریوں میں باریک پیلے دانے",
+        "پتے پر سیدھی دھاریاں",
+        "پتے پر پیلا سفوف",
+        "دانے زیادہ تر پتے کے اوپری حصے پر",
+        "پتوں کا جلدی پیلا ہو کر سوکھنا",
+        "شدید حالات میں سکڑے ہوئے ہلکے دانے"
+      ],
+      "prevention": [
+        "Plant yellow rust resistant wheat varieties",
+        "Avoid too much nitrogen fertilizer",
+        "Keep proper plant spacing",
+        "Remove wild wheat plants",
+        "Check field regularly in cool weather",
+        "Spray fungicide early in high risk areas"
+      ],
+      "prevention_ur": [
+        "یلو رسٹ مزاحم گندم کی اقسام لگائیں",
+        "زیادہ نائٹروجن کھاد سے گریز کریں",
+        "پودوں کا فاصلہ صحیح رکھیں",
+        "جنگلی گندم کے پودے ہٹا دیں",
+        "ٹھنڈے موسم میں باقاعدگی سے کھیت چیک کریں",
+        "زیادہ خطرے والے علاقوں میں جلد فنگسائیڈ سپرے کریں"
+      ],
+      "treatment": [
+        {
+          "name": "Propiconazole",
+          "name_ur": "پروپیکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray at first sign of stripes",
+          "usage_ur": "دھاریاں نظر آتے ہی سپرے کریں"
+        },
+        {
+          "name": "Tebuconazole",
+          "name_ur": "ٹیبوکونازول",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Apply before stem elongation stage",
+          "usage_ur": "تنے کے بڑھنے سے پہلے لگائیں"
+        },
+        {
+          "name": "Triadimefon",
+          "name_ur": "ٹریاڈیمیفون",
+          "type": "Fungicide",
+          "type_ur": "فنگسائیڈ",
+          "usage": "Spray as protective treatment",
+          "usage_ur": "حفاظتی طور پر سپرے کریں"
+        }
+      ],
+      "estimated_recovery_time": "10-20 days",
+      "estimated_recovery_time_ur": "10-20 دن",
+      "severity": "High",
+      "severity_ur": "شدید"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KisanAI" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Same as light theme — app is forced to light mode in code -->
+        <item name="android:statusBarColor">@color/bg_cream</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/bg_cream</item>
+        <item name="android:colorBackground">@color/bg_cream</item>
+        <item name="colorSurface">@color/bg_cream</item>
+
+        <!-- Skip the starting-window preview so it doesn't flash before bg_cream applies -->
+        <item name="android:windowDisablePreview">true</item>
+
+        <!-- Keep identical to light theme so there's no mismatch during recreate -->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="Theme.KisanAI" parent="Base.Theme.KisanAI" />
+</resources>

@@ -1,0 +1,5583 @@
+{
+  "meta": {
+    "generated": "2026-08-16",
+    "data_type": "MIXED — see 'is_real' flag on every price entry",
+    "notes": [
+      "Punjab Potato prices: REAL, scraped from AMIS Punjab on 11-08-2026. Null values mean AMIS itself reported no arrivals that day for that city.",
+      "Punjab Wheat/Rice/Corn/Sugarcane: PLACEHOLDER — no live source connected yet for these crops. Replace before shipping to real users.",
+      "Sindh, Balochistan, KPK — ALL crops: PLACEHOLDER — no scraper/data source connected for these provinces yet. City list is real cities, prices are not.",
+      "Every price object has an 'is_real' boolean so your frontend/backend can distinguish verified data from placeholders at render time."
+    ],
+    "unit": {
+      "unit_en": "Rs/40kg (Mann)",
+      "unit_ur": "روپے / من (40 کلوگرام)"
+    }
+  },
+  "country": {
+    "id": "pakistan",
+    "name_en": "Pakistan",
+    "name_ur": "پاکستان",
+    "crops": {
+      "wheat": {
+        "commodity_en": "Wheat",
+        "commodity_ur": "گندم",
+        "avg_price": 3220.0,
+        "provinces_reporting": 4,
+        "is_real": false,
+        "unit_en": "Rs/40kg (Mann)",
+        "unit_ur": "روپے / من (40 کلوگرام)"
+      },
+      "rice": {
+        "commodity_en": "Rice",
+        "commodity_ur": "چاول",
+        "avg_price": 5230.0,
+        "provinces_reporting": 4,
+        "is_real": false,
+        "unit_en": "Rs/40kg (Mann)",
+        "unit_ur": "روپے / من (40 کلوگرام)"
+      },
+      "corn": {
+        "commodity_en": "Corn (Maize)",
+        "commodity_ur": "مکئی",
+        "avg_price": 2400.0,
+        "provinces_reporting": 4,
+        "is_real": false,
+        "unit_en": "Rs/40kg (Mann)",
+        "unit_ur": "روپے / من (40 کلوگرام)"
+      },
+      "potato": {
+        "commodity_en": "Potato",
+        "commodity_ur": "آلو",
+        "avg_price": 950.0,
+        "provinces_reporting": 4,
+        "is_real": true,
+        "unit_en": "Rs/40kg (Mann)",
+        "unit_ur": "روپے / من (40 کلوگرام)"
+      },
+      "sugarcane": {
+        "commodity_en": "Sugarcane",
+        "commodity_ur": "گنا",
+        "avg_price": 450.0,
+        "provinces_reporting": 4,
+        "is_real": false,
+        "unit_en": "Rs/40kg (Mann)",
+        "unit_ur": "روپے / من (40 کلوگرام)"
+      }
+    }
+  },
+  "cities": [
+    {
+      "name_en": "Abbottabad",
+      "name_ur": "ایبٹ آباد",
+      "province_id": "kpk",
+      "province_en": "Khyber Pakhtunkhwa",
+      "province_ur": "خیبر پختونخوا",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3200.0,
+          "max_price": 3440.0,
+          "avg_price": 3330.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5540.0,
+          "max_price": 5900.0,
+          "avg_price": 5760.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2390.0,
+          "max_price": 2520.0,
+          "avg_price": 2430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 840.0,
+          "max_price": 950.0,
+          "avg_price": 870.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Abdul Hakim",
+      "name_ur": "عبدالحکیم",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2930.0,
+          "max_price": 3150.0,
+          "avg_price": 3070.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5420.0,
+          "max_price": 5670.0,
+          "avg_price": 5630.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2500.0,
+          "max_price": 2720.0,
+          "avg_price": 2600.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Abdulhakim"
+    },
+    {
+      "name_en": "Ahmadpur East",
+      "name_ur": "احمد پور شرقیہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3270.0,
+          "max_price": 3370.0,
+          "avg_price": 3300.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5090.0,
+          "max_price": 5340.0,
+          "avg_price": 5250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2260.0,
+          "max_price": 2450.0,
+          "avg_price": 2370.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "AhmadPurEast"
+    },
+    {
+      "name_en": "Alipur Chatha",
+      "name_ur": "علی پور چٹھہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3140.0,
+          "max_price": 3260.0,
+          "avg_price": 3190.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4520.0,
+          "max_price": 5030.0,
+          "avg_price": 4670.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2210.0,
+          "max_price": 2380.0,
+          "avg_price": 2310.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "AliPurChatta"
+    },
+    {
+      "name_en": "Arifwala",
+      "name_ur": "عارف والا",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3100.0,
+          "max_price": 3220.0,
+          "avg_price": 3180.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4320.0,
+          "max_price": 4840.0,
+          "avg_price": 4660.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2470.0,
+          "max_price": 2560.0,
+          "avg_price": 2530.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "ArifWala"
+    },
+    {
+      "name_en": "Bahawalpur",
+      "name_ur": "بہاولپور",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2870.0,
+          "max_price": 3050.0,
+          "avg_price": 2950.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4850.0,
+          "max_price": 5210.0,
+          "avg_price": 4950.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2410.0,
+          "max_price": 2570.0,
+          "avg_price": 2480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 840,
+          "max_price": 880,
+          "avg_price": 860,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "BahawalPur"
+    },
+    {
+      "name_en": "Basirpur",
+      "name_ur": "بصیر پور",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3020.0,
+          "max_price": 3170.0,
+          "avg_price": 3120.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4820.0,
+          "max_price": 5090.0,
+          "avg_price": 4860.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2180.0,
+          "max_price": 2400.0,
+          "avg_price": 2290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Basirpur"
+    },
+    {
+      "name_en": "Bhalwal",
+      "name_ur": "بھلوال",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3150.0,
+          "max_price": 3260.0,
+          "avg_price": 3220.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4750.0,
+          "max_price": 5260.0,
+          "avg_price": 5030.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2460.0,
+          "max_price": 2570.0,
+          "avg_price": 2500.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Bhalwal"
+    },
+    {
+      "name_en": "Chak Jhumra",
+      "name_ur": "چک جھمرہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2840.0,
+          "max_price": 3020.0,
+          "avg_price": 2960.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5430.0,
+          "max_price": 6030.0,
+          "avg_price": 5720.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2470.0,
+          "max_price": 2620.0,
+          "avg_price": 2520.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 880,
+          "max_price": 960,
+          "avg_price": 920,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "ChackJhumra"
+    },
+    {
+      "name_en": "Chakwal",
+      "name_ur": "چکوال",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3060.0,
+          "max_price": 3210.0,
+          "avg_price": 3160.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5250.0,
+          "max_price": 5540.0,
+          "avg_price": 5440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2440.0,
+          "max_price": 2560.0,
+          "avg_price": 2460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1040,
+          "max_price": 1120,
+          "avg_price": 1080,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Chakwal"
+    },
+    {
+      "name_en": "Chaman",
+      "name_ur": "چمن",
+      "province_id": "balochistan",
+      "province_en": "Balochistan",
+      "province_ur": "بلوچستان",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3250.0,
+          "max_price": 3370.0,
+          "avg_price": 3340.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4860.0,
+          "max_price": 5230.0,
+          "avg_price": 5200.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2400.0,
+          "max_price": 2580.0,
+          "avg_price": 2510.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 850.0,
+          "max_price": 960.0,
+          "avg_price": 940.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Chichawatni",
+      "name_ur": "چیچہ وطنی",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2880.0,
+          "max_price": 3130.0,
+          "avg_price": 3000.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5260.0,
+          "max_price": 5670.0,
+          "avg_price": 5320.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2460.0,
+          "max_price": 2570.0,
+          "avg_price": 2510.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 800,
+          "max_price": 920,
+          "avg_price": 860,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Chichawatni"
+    },
+    {
+      "name_en": "Chiniot",
+      "name_ur": "چنیوٹ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3260.0,
+          "max_price": 3470.0,
+          "avg_price": 3370.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5540.0,
+          "max_price": 5800.0,
+          "avg_price": 5780.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2480.0,
+          "max_price": 2620.0,
+          "avg_price": 2530.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 880,
+          "max_price": 1080,
+          "avg_price": 980,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 470.0,
+          "max_price": 510.0,
+          "avg_price": 490.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Chiniot"
+    },
+    {
+      "name_en": "Chishtian",
+      "name_ur": "چشتیاں",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2880.0,
+          "max_price": 3070.0,
+          "avg_price": 2990.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5260.0,
+          "max_price": 5750.0,
+          "avg_price": 5510.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2300.0,
+          "max_price": 2430.0,
+          "avg_price": 2400.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Chistian"
+    },
+    {
+      "name_en": "Dera Ghazi Khan",
+      "name_ur": "ڈیرہ غازی خان",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2920.0,
+          "max_price": 3000.0,
+          "avg_price": 2960.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5190.0,
+          "max_price": 5490.0,
+          "avg_price": 5400.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2380.0,
+          "max_price": 2520.0,
+          "avg_price": 2480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 720,
+          "max_price": 880,
+          "avg_price": 800,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "DGKHAN"
+    },
+    {
+      "name_en": "Dera Ismail Khan",
+      "name_ur": "ڈیرہ اسماعیل خان",
+      "province_id": "kpk",
+      "province_en": "Khyber Pakhtunkhwa",
+      "province_ur": "خیبر پختونخوا",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3220.0,
+          "max_price": 3500.0,
+          "avg_price": 3350.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5350.0,
+          "max_price": 5820.0,
+          "avg_price": 5580.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2100.0,
+          "max_price": 2310.0,
+          "avg_price": 2210.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 850.0,
+          "max_price": 950.0,
+          "avg_price": 880.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Dunyapur",
+      "name_ur": "دنیا پور",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3210.0,
+          "max_price": 3390.0,
+          "avg_price": 3360.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4500.0,
+          "max_price": 4880.0,
+          "avg_price": 4630.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2520.0,
+          "max_price": 2670.0,
+          "avg_price": 2580.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "DunyaPur"
+    },
+    {
+      "name_en": "Faisalabad",
+      "name_ur": "فیصل آباد",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3010.0,
+          "max_price": 3220.0,
+          "avg_price": 3120.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5310.0,
+          "max_price": 5930.0,
+          "avg_price": 5620.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2300.0,
+          "max_price": 2440.0,
+          "avg_price": 2350.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1120,
+          "max_price": 1200,
+          "avg_price": 1160,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Faisalabad"
+    },
+    {
+      "name_en": "Fort Abbas",
+      "name_ur": "فورٹ عباس",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2890.0,
+          "max_price": 3060.0,
+          "avg_price": 3030.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4600.0,
+          "max_price": 5070.0,
+          "avg_price": 4820.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2260.0,
+          "max_price": 2400.0,
+          "avg_price": 2290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1280,
+          "max_price": 1440,
+          "avg_price": 1360,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Fortabas"
+    },
+    {
+      "name_en": "Gujar Khan",
+      "name_ur": "گوجر خان",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3120.0,
+          "max_price": 3270.0,
+          "avg_price": 3140.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4730.0,
+          "max_price": 5110.0,
+          "avg_price": 4820.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2230.0,
+          "max_price": 2430.0,
+          "avg_price": 2340.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "GujarKhan"
+    },
+    {
+      "name_en": "Gujranwala",
+      "name_ur": "گوجرانوالہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3120.0,
+          "max_price": 3380.0,
+          "avg_price": 3250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4930.0,
+          "max_price": 5310.0,
+          "avg_price": 5130.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2430.0,
+          "max_price": 2580.0,
+          "avg_price": 2490.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Gujranwala"
+    },
+    {
+      "name_en": "Gujrat",
+      "name_ur": "گجرات",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3140.0,
+          "max_price": 3360.0,
+          "avg_price": 3280.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5010.0,
+          "max_price": 5580.0,
+          "avg_price": 5250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2500.0,
+          "max_price": 2570.0,
+          "avg_price": 2530.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Gujrat"
+    },
+    {
+      "name_en": "Hafizabad",
+      "name_ur": "حافظ آباد",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3110.0,
+          "max_price": 3250.0,
+          "avg_price": 3160.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5390.0,
+          "max_price": 5610.0,
+          "avg_price": 5480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2520.0,
+          "max_price": 2660.0,
+          "avg_price": 2600.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Hafizabad"
+    },
+    {
+      "name_en": "Hasan Abdal",
+      "name_ur": "حسن ابدال",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3020.0,
+          "max_price": 3200.0,
+          "avg_price": 3060.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5110.0,
+          "max_price": 5580.0,
+          "avg_price": 5290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2480.0,
+          "max_price": 2550.0,
+          "avg_price": 2520.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Hasanabdal"
+    },
+    {
+      "name_en": "Hazro",
+      "name_ur": "حضرو",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3340.0,
+          "max_price": 3530.0,
+          "avg_price": 3440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5110.0,
+          "max_price": 5700.0,
+          "avg_price": 5420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2270.0,
+          "max_price": 2340.0,
+          "avg_price": 2290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Hazro"
+    },
+    {
+      "name_en": "Hyderabad",
+      "name_ur": "حیدرآباد",
+      "province_id": "sindh",
+      "province_en": "Sindh",
+      "province_ur": "سندھ",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3130.0,
+          "max_price": 3230.0,
+          "avg_price": 3180.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4320.0,
+          "max_price": 4940.0,
+          "avg_price": 4610.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2430.0,
+          "max_price": 2530.0,
+          "avg_price": 2470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 840.0,
+          "max_price": 960.0,
+          "avg_price": 900.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Jahanian",
+      "name_ur": "جہانیاں",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3120.0,
+          "max_price": 3210.0,
+          "avg_price": 3140.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5190.0,
+          "max_price": 5840.0,
+          "avg_price": 5500.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2280.0,
+          "max_price": 2440.0,
+          "avg_price": 2370.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Jahanian"
+    },
+    {
+      "name_en": "Jampur",
+      "name_ur": "جام پور",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3240.0,
+          "max_price": 3430.0,
+          "avg_price": 3330.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4880.0,
+          "max_price": 5050.0,
+          "avg_price": 4930.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2260.0,
+          "max_price": 2380.0,
+          "avg_price": 2310.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1280,
+          "max_price": 1440,
+          "avg_price": 1360,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "JamPur"
+    },
+    {
+      "name_en": "Jaranwala",
+      "name_ur": "جڑانوالہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3020.0,
+          "max_price": 3130.0,
+          "avg_price": 3040.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4580.0,
+          "max_price": 5140.0,
+          "avg_price": 4930.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2450.0,
+          "max_price": 2590.0,
+          "avg_price": 2480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 800,
+          "max_price": 960,
+          "avg_price": 880,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Jaranwala"
+    },
+    {
+      "name_en": "Jauharabad",
+      "name_ur": "جوہرآباد",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3260.0,
+          "max_price": 3490.0,
+          "avg_price": 3360.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5030.0,
+          "max_price": 5330.0,
+          "avg_price": 5290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2240.0,
+          "max_price": 2320.0,
+          "avg_price": 2290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1040,
+          "max_price": 1120,
+          "avg_price": 1080,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Jauharabad"
+    },
+    {
+      "name_en": "Jhang",
+      "name_ur": "جھنگ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3210.0,
+          "max_price": 3390.0,
+          "avg_price": 3320.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4430.0,
+          "max_price": 4810.0,
+          "avg_price": 4680.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2230.0,
+          "max_price": 2420.0,
+          "avg_price": 2330.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 880,
+          "max_price": 960,
+          "avg_price": 920,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Jhang"
+    },
+    {
+      "name_en": "Jhelum",
+      "name_ur": "جہلم",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3210.0,
+          "max_price": 3400.0,
+          "avg_price": 3270.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5250.0,
+          "max_price": 5600.0,
+          "avg_price": 5500.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2260.0,
+          "max_price": 2320.0,
+          "avg_price": 2280.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1040,
+          "max_price": 1160,
+          "avg_price": 1100,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Jhelum"
+    },
+    {
+      "name_en": "Kabirwala",
+      "name_ur": "کبیروالا",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3170.0,
+          "max_price": 3380.0,
+          "avg_price": 3230.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4460.0,
+          "max_price": 4970.0,
+          "avg_price": 4740.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2480.0,
+          "max_price": 2590.0,
+          "avg_price": 2520.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "KabirWala"
+    },
+    {
+      "name_en": "Kahror Pakka",
+      "name_ur": "کہروڑ پکا",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3240.0,
+          "max_price": 3400.0,
+          "avg_price": 3370.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5510.0,
+          "max_price": 6050.0,
+          "avg_price": 5750.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2420.0,
+          "max_price": 2570.0,
+          "avg_price": 2480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1120,
+          "max_price": 1120,
+          "avg_price": 1120,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 470.0,
+          "max_price": 510.0,
+          "avg_price": 490.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Kahrorpacca"
+    },
+    {
+      "name_en": "Kalur Kot",
+      "name_ur": "کالو کوٹ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3060.0,
+          "max_price": 3250.0,
+          "avg_price": 3160.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5630.0,
+          "max_price": 5980.0,
+          "avg_price": 5720.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2240.0,
+          "max_price": 2390.0,
+          "avg_price": 2300.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 880,
+          "max_price": 920,
+          "avg_price": 900,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Kalurkot"
+    },
+    {
+      "name_en": "Kamalia",
+      "name_ur": "کمالیہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2860.0,
+          "max_price": 3000.0,
+          "avg_price": 2960.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5110.0,
+          "max_price": 5300.0,
+          "avg_price": 5150.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2230.0,
+          "max_price": 2380.0,
+          "avg_price": 2280.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1000,
+          "max_price": 1080,
+          "avg_price": 1040,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Kamalia"
+    },
+    {
+      "name_en": "Karachi",
+      "name_ur": "کراچی",
+      "province_id": "sindh",
+      "province_en": "Sindh",
+      "province_ur": "سندھ",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2850.0,
+          "max_price": 3030.0,
+          "avg_price": 2970.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4980.0,
+          "max_price": 5250.0,
+          "avg_price": 5050.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2330.0,
+          "max_price": 2470.0,
+          "avg_price": 2430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 740.0,
+          "max_price": 880.0,
+          "avg_price": 820.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Kasur",
+      "name_ur": "قصور",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2950.0,
+          "max_price": 3220.0,
+          "avg_price": 3090.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5090.0,
+          "max_price": 5390.0,
+          "avg_price": 5260.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2210.0,
+          "max_price": 2390.0,
+          "avg_price": 2330.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Kasur"
+    },
+    {
+      "name_en": "Khairpur",
+      "name_ur": "خیرپور",
+      "province_id": "sindh",
+      "province_en": "Sindh",
+      "province_ur": "سندھ",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3010.0,
+          "max_price": 3150.0,
+          "avg_price": 3130.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5070.0,
+          "max_price": 5490.0,
+          "avg_price": 5240.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2390.0,
+          "max_price": 2570.0,
+          "avg_price": 2470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1050.0,
+          "max_price": 1120.0,
+          "avg_price": 1080.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 390.0,
+          "max_price": 430.0,
+          "avg_price": 410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Khudian",
+      "name_ur": "کھڈیاں",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3240.0,
+          "max_price": 3450.0,
+          "avg_price": 3330.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5220.0,
+          "max_price": 5370.0,
+          "avg_price": 5240.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2100.0,
+          "max_price": 2320.0,
+          "avg_price": 2210.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Khudian"
+    },
+    {
+      "name_en": "Khuzdar",
+      "name_ur": "خضدار",
+      "province_id": "balochistan",
+      "province_en": "Balochistan",
+      "province_ur": "بلوچستان",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3350.0,
+          "max_price": 3490.0,
+          "avg_price": 3380.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4900.0,
+          "max_price": 5390.0,
+          "avg_price": 5250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2320.0,
+          "max_price": 2390.0,
+          "avg_price": 2360.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1000.0,
+          "max_price": 1120.0,
+          "avg_price": 1050.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Kohat",
+      "name_ur": "کوہاٹ",
+      "province_id": "kpk",
+      "province_en": "Khyber Pakhtunkhwa",
+      "province_ur": "خیبر پختونخوا",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3290.0,
+          "max_price": 3450.0,
+          "avg_price": 3380.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4530.0,
+          "max_price": 4800.0,
+          "avg_price": 4770.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2460.0,
+          "max_price": 2560.0,
+          "avg_price": 2500.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 850.0,
+          "max_price": 970.0,
+          "avg_price": 900.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Kot Addu",
+      "name_ur": "کوٹ ادو",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3250.0,
+          "max_price": 3410.0,
+          "avg_price": 3310.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5060.0,
+          "max_price": 5430.0,
+          "avg_price": 5210.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2210.0,
+          "max_price": 2320.0,
+          "avg_price": 2300.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 880,
+          "max_price": 960,
+          "avg_price": 920,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "KotAdu"
+    },
+    {
+      "name_en": "Kot Momin",
+      "name_ur": "کوٹ مومن",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3250.0,
+          "max_price": 3330.0,
+          "avg_price": 3270.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4600.0,
+          "max_price": 5120.0,
+          "avg_price": 4870.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2530.0,
+          "max_price": 2620.0,
+          "avg_price": 2560.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 880,
+          "max_price": 1000,
+          "avg_price": 940,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 390.0,
+          "max_price": 430.0,
+          "avg_price": 410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "kotmoman"
+    },
+    {
+      "name_en": "Lahore",
+      "name_ur": "لاہور",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2880.0,
+          "max_price": 3120.0,
+          "avg_price": 2980.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5530.0,
+          "max_price": 5970.0,
+          "avg_price": 5800.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2160.0,
+          "max_price": 2350.0,
+          "avg_price": 2240.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Lahore"
+    },
+    {
+      "name_en": "Larkana",
+      "name_ur": "لاڑکانہ",
+      "province_id": "sindh",
+      "province_en": "Sindh",
+      "province_ur": "سندھ",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3170.0,
+          "max_price": 3390.0,
+          "avg_price": 3250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4650.0,
+          "max_price": 5170.0,
+          "avg_price": 4940.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2260.0,
+          "max_price": 2420.0,
+          "avg_price": 2340.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 930.0,
+          "max_price": 1070.0,
+          "avg_price": 1000.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Layyah",
+      "name_ur": "لیہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3050.0,
+          "max_price": 3200.0,
+          "avg_price": 3090.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5100.0,
+          "max_price": 5630.0,
+          "avg_price": 5440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2370.0,
+          "max_price": 2420.0,
+          "avg_price": 2400.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1000,
+          "max_price": 1120,
+          "avg_price": 1060,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Layyah"
+    },
+    {
+      "name_en": "Lodhran",
+      "name_ur": "لودھراں",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3160.0,
+          "max_price": 3330.0,
+          "avg_price": 3240.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4840.0,
+          "max_price": 5240.0,
+          "avg_price": 5110.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2430.0,
+          "max_price": 2530.0,
+          "avg_price": 2480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Lodhran"
+    },
+    {
+      "name_en": "Loralai",
+      "name_ur": "لورالائی",
+      "province_id": "balochistan",
+      "province_en": "Balochistan",
+      "province_ur": "بلوچستان",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2960.0,
+          "max_price": 3050.0,
+          "avg_price": 3010.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5360.0,
+          "max_price": 5420.0,
+          "avg_price": 5390.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2480.0,
+          "max_price": 2570.0,
+          "avg_price": 2520.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 830.0,
+          "max_price": 920.0,
+          "avg_price": 850.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Mailsi",
+      "name_ur": "میلسی",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3140.0,
+          "max_price": 3300.0,
+          "avg_price": 3220.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5370.0,
+          "max_price": 5790.0,
+          "avg_price": 5480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2500.0,
+          "max_price": 2640.0,
+          "avg_price": 2530.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 920,
+          "max_price": 1120,
+          "avg_price": 1020,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Mailsi"
+    },
+    {
+      "name_en": "Mamu Kanjan",
+      "name_ur": "مامو کانجن",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3100.0,
+          "max_price": 3180.0,
+          "avg_price": 3160.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5290.0,
+          "max_price": 5640.0,
+          "avg_price": 5530.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2420.0,
+          "max_price": 2560.0,
+          "avg_price": 2500.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 800,
+          "max_price": 1000,
+          "avg_price": 900,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 390.0,
+          "max_price": 430.0,
+          "avg_price": 410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Mamunkanjan"
+    },
+    {
+      "name_en": "Mandi Bahauddin",
+      "name_ur": "منڈی بہاؤالدین",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3050.0,
+          "max_price": 3100.0,
+          "avg_price": 3080.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4890.0,
+          "max_price": 5390.0,
+          "avg_price": 5250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2360.0,
+          "max_price": 2550.0,
+          "avg_price": 2460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1040,
+          "max_price": 1120,
+          "avg_price": 1080,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "MandiBahaudin"
+    },
+    {
+      "name_en": "Mardan",
+      "name_ur": "مردان",
+      "province_id": "kpk",
+      "province_en": "Khyber Pakhtunkhwa",
+      "province_ur": "خیبر پختونخوا",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3170.0,
+          "max_price": 3400.0,
+          "avg_price": 3300.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5250.0,
+          "max_price": 5610.0,
+          "avg_price": 5520.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2340.0,
+          "max_price": 2430.0,
+          "avg_price": 2380.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 890.0,
+          "max_price": 970.0,
+          "avg_price": 940.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Mianwali",
+      "name_ur": "میانوالی",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3060.0,
+          "max_price": 3270.0,
+          "avg_price": 3160.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4990.0,
+          "max_price": 5250.0,
+          "avg_price": 5160.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2280.0,
+          "max_price": 2490.0,
+          "avg_price": 2390.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 920,
+          "max_price": 1080,
+          "avg_price": 1000,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Mianwali"
+    },
+    {
+      "name_en": "Mingora",
+      "name_ur": "مینگورہ",
+      "province_id": "kpk",
+      "province_en": "Khyber Pakhtunkhwa",
+      "province_ur": "خیبر پختونخوا",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2890.0,
+          "max_price": 3060.0,
+          "avg_price": 3030.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5550.0,
+          "max_price": 5650.0,
+          "avg_price": 5600.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2400.0,
+          "max_price": 2580.0,
+          "avg_price": 2500.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 920.0,
+          "max_price": 1020.0,
+          "avg_price": 980.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Mirpurkhas",
+      "name_ur": "میرپورخاص",
+      "province_id": "sindh",
+      "province_en": "Sindh",
+      "province_ur": "سندھ",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3210.0,
+          "max_price": 3350.0,
+          "avg_price": 3270.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5030.0,
+          "max_price": 5350.0,
+          "avg_price": 5300.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2230.0,
+          "max_price": 2360.0,
+          "avg_price": 2320.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 780.0,
+          "max_price": 930.0,
+          "avg_price": 840.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Multan",
+      "name_ur": "ملتان",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3290.0,
+          "max_price": 3480.0,
+          "avg_price": 3370.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5100.0,
+          "max_price": 5510.0,
+          "avg_price": 5210.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2550.0,
+          "max_price": 2670.0,
+          "avg_price": 2590.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Multan"
+    },
+    {
+      "name_en": "Nankana Sahib",
+      "name_ur": "ننکانہ صاحب",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2930.0,
+          "max_price": 3140.0,
+          "avg_price": 3060.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4680.0,
+          "max_price": 5070.0,
+          "avg_price": 4970.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2170.0,
+          "max_price": 2260.0,
+          "avg_price": 2210.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Nankana"
+    },
+    {
+      "name_en": "Narowal",
+      "name_ur": "نارووال",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2900.0,
+          "max_price": 3130.0,
+          "avg_price": 3040.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4560.0,
+          "max_price": 4970.0,
+          "avg_price": 4660.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2280.0,
+          "max_price": 2470.0,
+          "avg_price": 2380.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 470.0,
+          "max_price": 510.0,
+          "avg_price": 490.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Narowal"
+    },
+    {
+      "name_en": "Nawabshah",
+      "name_ur": "نوابشاہ",
+      "province_id": "sindh",
+      "province_en": "Sindh",
+      "province_ur": "سندھ",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2950.0,
+          "max_price": 3160.0,
+          "avg_price": 3080.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5300.0,
+          "max_price": 5710.0,
+          "avg_price": 5570.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2130.0,
+          "max_price": 2280.0,
+          "avg_price": 2250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1010.0,
+          "max_price": 1160.0,
+          "avg_price": 1090.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 470.0,
+          "max_price": 510.0,
+          "avg_price": 490.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Nowshera Virkan",
+      "name_ur": "نوشہرہ ورکاں",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3360.0,
+          "max_price": 3600.0,
+          "avg_price": 3450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5610.0,
+          "max_price": 5900.0,
+          "avg_price": 5630.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2400.0,
+          "max_price": 2520.0,
+          "avg_price": 2470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Noshehrawirkan"
+    },
+    {
+      "name_en": "Okara",
+      "name_ur": "اوکاڑہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3310.0,
+          "max_price": 3460.0,
+          "avg_price": 3340.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5150.0,
+          "max_price": 5600.0,
+          "avg_price": 5450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2370.0,
+          "max_price": 2590.0,
+          "avg_price": 2470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Okara"
+    },
+    {
+      "name_en": "Pakpattan",
+      "name_ur": "پاکپتن",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3100.0,
+          "max_price": 3260.0,
+          "avg_price": 3220.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4680.0,
+          "max_price": 5130.0,
+          "avg_price": 4860.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2520.0,
+          "max_price": 2640.0,
+          "avg_price": 2590.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 720,
+          "max_price": 920,
+          "avg_price": 820,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "PakPattan"
+    },
+    {
+      "name_en": "Peshawar",
+      "name_ur": "پشاور",
+      "province_id": "kpk",
+      "province_en": "Khyber Pakhtunkhwa",
+      "province_ur": "خیبر پختونخوا",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3060.0,
+          "max_price": 3230.0,
+          "avg_price": 3200.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4470.0,
+          "max_price": 4740.0,
+          "avg_price": 4700.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2230.0,
+          "max_price": 2380.0,
+          "avg_price": 2310.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 810.0,
+          "max_price": 960.0,
+          "avg_price": 900.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Pindi Bhattian",
+      "name_ur": "پنڈی بھٹیاں",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3250.0,
+          "max_price": 3420.0,
+          "avg_price": 3390.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5140.0,
+          "max_price": 5460.0,
+          "avg_price": 5180.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2480.0,
+          "max_price": 2580.0,
+          "avg_price": 2510.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Pindibhattian"
+    },
+    {
+      "name_en": "Pir Mahal",
+      "name_ur": "پیر محل",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3150.0,
+          "max_price": 3230.0,
+          "avg_price": 3170.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5250.0,
+          "max_price": 5490.0,
+          "avg_price": 5410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2360.0,
+          "max_price": 2470.0,
+          "avg_price": 2390.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1000,
+          "max_price": 1080,
+          "avg_price": 1040,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 390.0,
+          "max_price": 430.0,
+          "avg_price": 410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "PirMahal"
+    },
+    {
+      "name_en": "Qadirpur Rawan",
+      "name_ur": "قادر پور رواں",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3370.0,
+          "max_price": 3460.0,
+          "avg_price": 3430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4410.0,
+          "max_price": 4950.0,
+          "avg_price": 4720.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2430.0,
+          "max_price": 2590.0,
+          "avg_price": 2520.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 470.0,
+          "max_price": 510.0,
+          "avg_price": 490.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Qadirpurrawan"
+    },
+    {
+      "name_en": "Qila Didar Singh",
+      "name_ur": "قلعہ دیدار سنگھ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3040.0,
+          "max_price": 3310.0,
+          "avg_price": 3180.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4730.0,
+          "max_price": 5000.0,
+          "avg_price": 4920.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2460.0,
+          "max_price": 2620.0,
+          "avg_price": 2570.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Qiladedarsingh"
+    },
+    {
+      "name_en": "Quetta",
+      "name_ur": "کوئٹہ",
+      "province_id": "balochistan",
+      "province_en": "Balochistan",
+      "province_ur": "بلوچستان",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3360.0,
+          "max_price": 3440.0,
+          "avg_price": 3410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5260.0,
+          "max_price": 5710.0,
+          "avg_price": 5590.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2330.0,
+          "max_price": 2470.0,
+          "avg_price": 2360.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 840.0,
+          "max_price": 920.0,
+          "avg_price": 890.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Rahim Yar Khan",
+      "name_ur": "رحیم یار خان",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2860.0,
+          "max_price": 3110.0,
+          "avg_price": 3010.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4820.0,
+          "max_price": 5100.0,
+          "avg_price": 4890.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2390.0,
+          "max_price": 2540.0,
+          "avg_price": 2420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 727.2,
+          "max_price": 909.2,
+          "avg_price": 818.4,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "RahimYarKhan"
+    },
+    {
+      "name_en": "Rajanpur",
+      "name_ur": "راجن پور",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3090.0,
+          "max_price": 3190.0,
+          "avg_price": 3150.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4760.0,
+          "max_price": 5350.0,
+          "avg_price": 5100.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2480.0,
+          "max_price": 2610.0,
+          "avg_price": 2560.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1080,
+          "max_price": 1080,
+          "avg_price": 1080,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "RajanPur"
+    },
+    {
+      "name_en": "Rawalpindi",
+      "name_ur": "راولپنڈی",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3260.0,
+          "max_price": 3450.0,
+          "avg_price": 3390.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5390.0,
+          "max_price": 5890.0,
+          "avg_price": 5550.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2300.0,
+          "max_price": 2450.0,
+          "avg_price": 2400.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Rawalpindi"
+    },
+    {
+      "name_en": "Renala Khurd",
+      "name_ur": "رینالہ خورد",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3200.0,
+          "max_price": 3420.0,
+          "avg_price": 3270.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4900.0,
+          "max_price": 5300.0,
+          "avg_price": 5240.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2550.0,
+          "max_price": 2710.0,
+          "avg_price": 2590.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "RenalaKhurd"
+    },
+    {
+      "name_en": "Sahiwal",
+      "name_ur": "ساہیوال",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3370.0,
+          "max_price": 3510.0,
+          "avg_price": 3410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5170.0,
+          "max_price": 5410.0,
+          "avg_price": 5360.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2290.0,
+          "max_price": 2430.0,
+          "avg_price": 2340.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 720,
+          "max_price": 800,
+          "avg_price": 760,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Sahiwal"
+    },
+    {
+      "name_en": "Sambrial",
+      "name_ur": "سمبڑیال",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3100.0,
+          "max_price": 3300.0,
+          "avg_price": 3150.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5160.0,
+          "max_price": 5250.0,
+          "avg_price": 5210.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2160.0,
+          "max_price": 2340.0,
+          "avg_price": 2240.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Sambrial"
+    },
+    {
+      "name_en": "Samundri",
+      "name_ur": "سمندری",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3040.0,
+          "max_price": 3190.0,
+          "avg_price": 3070.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5500.0,
+          "max_price": 5890.0,
+          "avg_price": 5660.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2150.0,
+          "max_price": 2370.0,
+          "avg_price": 2260.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 864,
+          "max_price": 936,
+          "avg_price": 900,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 470.0,
+          "max_price": 510.0,
+          "avg_price": 490.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Summandri"
+    },
+    {
+      "name_en": "Sangla Hill",
+      "name_ur": "سانگلہ ہل",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3200.0,
+          "max_price": 3460.0,
+          "avg_price": 3310.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4560.0,
+          "max_price": 4860.0,
+          "avg_price": 4720.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2500.0,
+          "max_price": 2580.0,
+          "avg_price": 2540.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 960,
+          "max_price": 1200,
+          "avg_price": 1080,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 430.0,
+          "max_price": 470.0,
+          "avg_price": 450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Sanglahill"
+    },
+    {
+      "name_en": "Sarai Alamgir",
+      "name_ur": "سرائے عالمگیر",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3200.0,
+          "max_price": 3340.0,
+          "avg_price": 3270.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4740.0,
+          "max_price": 5190.0,
+          "avg_price": 4850.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2380.0,
+          "max_price": 2500.0,
+          "avg_price": 2460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Sraialamgir"
+    },
+    {
+      "name_en": "Sargodha",
+      "name_ur": "سرگودھا",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3150.0,
+          "max_price": 3280.0,
+          "avg_price": 3190.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4800.0,
+          "max_price": 5210.0,
+          "avg_price": 5010.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2330.0,
+          "max_price": 2420.0,
+          "avg_price": 2380.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 840,
+          "max_price": 920,
+          "avg_price": 880,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Sargodha"
+    },
+    {
+      "name_en": "Shakargarh",
+      "name_ur": "شکرگڑھ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3330.0,
+          "max_price": 3500.0,
+          "avg_price": 3390.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4740.0,
+          "max_price": 5250.0,
+          "avg_price": 5070.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2270.0,
+          "max_price": 2390.0,
+          "avg_price": 2310.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Shakargarh"
+    },
+    {
+      "name_en": "Sheikhupura",
+      "name_ur": "شیخوپورہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2910.0,
+          "max_price": 3060.0,
+          "avg_price": 3000.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5070.0,
+          "max_price": 5420.0,
+          "avg_price": 5330.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2400.0,
+          "max_price": 2520.0,
+          "avg_price": 2450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Sheikhupura"
+    },
+    {
+      "name_en": "Shorkot",
+      "name_ur": "شورکوٹ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2910.0,
+          "max_price": 3140.0,
+          "avg_price": 2990.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5760.0,
+          "max_price": 5890.0,
+          "avg_price": 5800.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2200.0,
+          "max_price": 2420.0,
+          "avg_price": 2310.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 940,
+          "max_price": 1020,
+          "avg_price": 980,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Shorkot"
+    },
+    {
+      "name_en": "Sialkot",
+      "name_ur": "سیالکوٹ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3300.0,
+          "max_price": 3510.0,
+          "avg_price": 3400.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4910.0,
+          "max_price": 5420.0,
+          "avg_price": 5210.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2470.0,
+          "max_price": 2630.0,
+          "avg_price": 2560.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": null,
+          "max_price": null,
+          "avg_price": null,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 410.0,
+          "max_price": 450.0,
+          "avg_price": 430.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Sialkot"
+    },
+    {
+      "name_en": "Sibi",
+      "name_ur": "سبی",
+      "province_id": "balochistan",
+      "province_en": "Balochistan",
+      "province_ur": "بلوچستان",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3290.0,
+          "max_price": 3380.0,
+          "avg_price": 3340.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5240.0,
+          "max_price": 5560.0,
+          "avg_price": 5280.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2240.0,
+          "max_price": 2390.0,
+          "avg_price": 2280.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 870.0,
+          "max_price": 980.0,
+          "avg_price": 900.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 390.0,
+          "max_price": 430.0,
+          "avg_price": 410.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Sukkur",
+      "name_ur": "سکھر",
+      "province_id": "sindh",
+      "province_en": "Sindh",
+      "province_ur": "سندھ",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2980.0,
+          "max_price": 3130.0,
+          "avg_price": 3050.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4670.0,
+          "max_price": 5100.0,
+          "avg_price": 4880.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2550.0,
+          "max_price": 2720.0,
+          "avg_price": 2600.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 960.0,
+          "max_price": 1060.0,
+          "avg_price": 1000.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Talagang",
+      "name_ur": "تلہ گنگ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3120.0,
+          "max_price": 3270.0,
+          "avg_price": 3230.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4610.0,
+          "max_price": 5180.0,
+          "avg_price": 4960.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2330.0,
+          "max_price": 2450.0,
+          "avg_price": 2420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1080,
+          "max_price": 1160,
+          "avg_price": 1120,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 440.0,
+          "max_price": 480.0,
+          "avg_price": 460.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "TALAGANG"
+    },
+    {
+      "name_en": "Tandlianwala",
+      "name_ur": "ٹنڈلیانوالہ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3310.0,
+          "max_price": 3530.0,
+          "avg_price": 3400.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5230.0,
+          "max_price": 5360.0,
+          "avg_price": 5300.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2210.0,
+          "max_price": 2420.0,
+          "avg_price": 2320.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 880,
+          "max_price": 960,
+          "avg_price": 920,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 460.0,
+          "max_price": 500.0,
+          "avg_price": 480.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Tandlianwala"
+    },
+    {
+      "name_en": "Toba Tek Singh",
+      "name_ur": "ٹوبہ ٹیک سنگھ",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3390.0,
+          "max_price": 3550.0,
+          "avg_price": 3450.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5060.0,
+          "max_price": 5670.0,
+          "avg_price": 5330.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2240.0,
+          "max_price": 2370.0,
+          "avg_price": 2280.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 1000,
+          "max_price": 1120,
+          "avg_price": 1060,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 400.0,
+          "max_price": 440.0,
+          "avg_price": 420.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "TTSingh"
+    },
+    {
+      "name_en": "Tounsa Sharif",
+      "name_ur": "تونسہ شریف",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2910.0,
+          "max_price": 3060.0,
+          "avg_price": 2960.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 5160.0,
+          "max_price": 5470.0,
+          "avg_price": 5250.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2500.0,
+          "max_price": 2620.0,
+          "avg_price": 2520.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 960,
+          "max_price": 1040,
+          "avg_price": 1000,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Taunsasharif"
+    },
+    {
+      "name_en": "Turbat",
+      "name_ur": "تربت",
+      "province_id": "balochistan",
+      "province_en": "Balochistan",
+      "province_ur": "بلوچستان",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 3170.0,
+          "max_price": 3430.0,
+          "avg_price": 3290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4830.0,
+          "max_price": 5170.0,
+          "avg_price": 5100.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2340.0,
+          "max_price": 2440.0,
+          "avg_price": 2370.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 830.0,
+          "max_price": 940.0,
+          "avg_price": 920.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 420.0,
+          "max_price": 460.0,
+          "avg_price": 440.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      }
+    },
+    {
+      "name_en": "Vehari",
+      "name_ur": "وہاڑی",
+      "province_id": "punjab",
+      "province_en": "Punjab",
+      "province_ur": "پنجاب",
+      "prices": {
+        "wheat": {
+          "commodity_en": "Wheat",
+          "commodity_ur": "گندم",
+          "min_price": 2850.0,
+          "max_price": 3130.0,
+          "avg_price": 3000.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "rice": {
+          "commodity_en": "Rice",
+          "commodity_ur": "چاول",
+          "min_price": 4950.0,
+          "max_price": 5650.0,
+          "avg_price": 5290.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "corn": {
+          "commodity_en": "Corn (Maize)",
+          "commodity_ur": "مکئی",
+          "min_price": 2420.0,
+          "max_price": 2490.0,
+          "avg_price": 2470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        },
+        "potato": {
+          "commodity_en": "Potato",
+          "commodity_ur": "آلو",
+          "min_price": 920,
+          "max_price": 1120,
+          "avg_price": 1020,
+          "is_real": true,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)",
+          "date": "11-08-2026"
+        },
+        "sugarcane": {
+          "commodity_en": "Sugarcane",
+          "commodity_ur": "گنا",
+          "min_price": 450.0,
+          "max_price": 490.0,
+          "avg_price": 470.0,
+          "is_real": false,
+          "unit_en": "Rs/40kg (Mann)",
+          "unit_ur": "روپے / من (40 کلوگرام)"
+        }
+      },
+      "raw_key": "Vehari"
+    }
+  ]
+}

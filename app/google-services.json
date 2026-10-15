@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "98536977749",
+    "project_id": "kisanai-2c4f3",
+    "storage_bucket": "kisanai-2c4f3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98536977749:android:32ef4c50c0c7297849abdc",
+        "android_client_info": {
+          "package_name": "com.example.kisanai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsWZfsSp1E2gUWd6rGbBLsc1Pu5aHIDwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

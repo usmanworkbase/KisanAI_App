@@ -1,0 +1,2500 @@
+{
+  "fertilizers": [
+    {
+      "id": 1,
+      "disease_name": {
+        "en": "Sugarcane Bacterial Blight",
+        "ur": "گنے کا بیکٹیریل بلائیٹ"
+      },
+      "crop": "Sugarcane",
+      "class_name": "Bacterial Blight",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "SOP supplies potassium and sulphur without adding chloride, strengthening cell walls and improving the plant's natural resistance mechanisms against bacterial infection.",
+            "ur": "ایس او پی پودے کو کلورائیڈ کے بغیر پوٹاشیم اور سلفر فراہم کرتی ہے، جس سے سیل کی دیواریں مضبوط ہوتی ہیں اور بیکٹیریل انفیکشن کے خلاف پودے کی قدرتی مدافعت بہتر ہوتی ہے۔"
+          },
+          "purpose": {
+            "en": "Boosts cell wall strength and disease resistance",
+            "ur": "سیل کی دیوار کی مضبوطی اور بیماری کے خلاف مزاحمت بڑھاتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Improves stalk rigidity, reduces bacterial spread through vascular tissue, and supports faster recovery of new growth",
+            "ur": "گنے کی مضبوطی بڑھاتی ہے، بیکٹیریا کے پھیلاؤ کو کم کرتی ہے اور نئی نشوونما کی بحالی میں مدد دیتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "100-125 kg per acre, split into 2 doses",
+            "ur": "100-125 کلوگرام فی ایکڑ، دو حصوں میں تقسیم کر کے"
+          },
+          "first_application": {
+            "en": "At tillering stage, once early symptoms are noticed",
+            "ur": "کلوں کے نکلنے کے مرحلے پر، جیسے ہی ابتدائی علامات نظر آئیں"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry, moderate temperature (25-32°C) with low humidity",
+            "ur": "خشک، معتدل درجہ حرارت (25-32°C) اور کم نمی"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged soil conditions, as it increases bacterial spread",
+            "ur": "پانی کھڑا ہونے والی زمین میں استعمال نہ کریں کیونکہ اس سے بیکٹیریا پھیلتا ہے"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Safe to apply alongside recommended bactericides, no direct interaction",
+            "ur": "تجویز کردہ بیکٹیریا کش ادویات کے ساتھ استعمال محفوظ ہے، کوئی براہ راست تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Calcium Nitrate",
+            "ur": "کیلشیم نائٹریٹ"
+          },
+          "brand_examples_pakistan": [
+            "Yara Calcium Nitrate",
+            "Yaramila (local blends)"
+          ],
+          "type": {
+            "en": "Calcium-based Fertilizer",
+            "ur": "کیلشیم پر مبنی کھاد"
+          },
+          "description": {
+            "en": "Supplies readily available calcium and nitrate-nitrogen, calcium strengthens cell walls making them more resistant to bacterial penetration.",
+            "ur": "فوری دستیاب کیلشیم اور نائٹریٹ نائٹروجن فراہم کرتی ہے، کیلشیم سیل کی دیواروں کو مضبوط بنا کر بیکٹیریا کے حملے سے بچاتا ہے۔"
+          },
+          "purpose": {
+            "en": "Strengthens plant tissue and reduces susceptibility",
+            "ur": "پودے کے بافتوں کو مضبوط کرتی ہے اور حساسیت کم کرتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Reduces lesion expansion and helps maintain healthier leaf tissue during infection",
+            "ur": "زخموں کے پھیلاؤ کو کم کرتی ہے اور انفیکشن کے دوران پتوں کو صحت مند رکھنے میں مدد دیتی ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "1-1.5 kg per 100 liters of water",
+            "ur": "1-1.5 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "As soon as blight symptoms appear on leaves",
+            "ur": "جیسے ہی پتوں پر بلائیٹ کی علامات ظاہر ہوں"
+          },
+          "repeat_after_days": {
+            "en": "14 days",
+            "ur": "14 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Cool mornings or late evenings, avoid strong sun",
+            "ur": "ٹھنڈی صبح یا شام کے وقت، تیز دھوپ سے گریز کریں"
+          },
+          "avoid_using_when": {
+            "en": "Avoid spraying during rainfall or high humidity",
+            "ur": "بارش یا زیادہ نمی کے دوران سپرے نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Compatible with most copper-based bactericides when tank-mixed correctly",
+            "ur": "زیادہ تر کاپر پر مبنی بیکٹیریا کش ادویات کے ساتھ درست طریقے سے ملا کر استعمال کیا جا سکتا ہے"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Potassium is the most critical nutrient for building resistance against bacterial pathogens in sugarcane without promoting excess soft growth that bacteria exploit.",
+          "ur": "پوٹاشیم گنے میں بیکٹیریل بیماریوں کے خلاف مزاحمت پیدا کرنے کے لیے سب سے اہم غذائی جزو ہے، اور یہ اضافی نرم نشوونما کو نہیں بڑھاتا جس کا فائدہ بیکٹیریا اٹھاتے ہیں۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid excess nitrogen as it promotes soft, disease-prone growth",
+          "ur": "اضافی نائٹروجن سے گریز کریں کیونکہ یہ نرم اور بیماری کے لیے حساس نشوونما کو بڑھاتی ہے"
+        },
+        {
+          "en": "Ensure proper field drainage to reduce bacterial spread",
+          "ur": "بیکٹیریا کے پھیلاؤ کو کم کرنے کے لیے کھیت کی نکاسی آب کو یقینی بنائیں"
+        },
+        {
+          "en": "Remove and destroy severely infected stalks to prevent further spread",
+          "ur": "شدید متاثرہ گنے کو نکال کر تلف کریں تاکہ بیماری مزید نہ پھیلے"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "disease_name": {
+        "en": "Corn Common Rust",
+        "ur": "مکئی کا عام زنگ (رسٹ)"
+      },
+      "crop": "Corn",
+      "class_name": "Corn___Common_Rust",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "NPK 20-20-20 (Water Soluble)",
+            "ur": "این پی کے 20-20-20 (پانی میں حل پذیر)"
+          },
+          "brand_examples_pakistan": [
+            "Engro NPK 20-20-20",
+            "Ravi Zarkhez NPK"
+          ],
+          "type": {
+            "en": "Balanced NPK Fertilizer",
+            "ur": "متوازن این پی کے کھاد"
+          },
+          "description": {
+            "en": "A fully water-soluble balanced fertilizer supplying nitrogen, phosphorus, and potassium in equal ratio to support overall plant vigor and recovery from rust stress.",
+            "ur": "یہ مکمل طور پر پانی میں حل ہونے والی متوازن کھاد ہے جو نائٹروجن، فاسفورس اور پوٹاشیم برابر تناسب میں فراہم کرتی ہے تاکہ پودے کی مجموعی طاقت بحال ہو اور رسٹ کے دباؤ سے صحت یابی ہو۔"
+          },
+          "purpose": {
+            "en": "Restores nutrient balance and supports plant vigor",
+            "ur": "غذائی توازن بحال کرتی ہے اور پودے کی طاقت کو سہارا دیتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Helps maintain photosynthetic capacity and reduces yield loss caused by rust-damaged leaf area",
+            "ur": "فوٹو سنتھیسز کی صلاحیت برقرار رکھنے میں مدد دیتی ہے اور رسٹ سے متاثرہ پتوں کی وجہ سے پیداوار کے نقصان کو کم کرتی ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "2-2.5 kg per 100 liters of water",
+            "ur": "2-2.5 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "At first appearance of rust pustules",
+            "ur": "جیسے ہی رسٹ کے دانے نظر آئیں"
+          },
+          "repeat_after_days": {
+            "en": "10 days",
+            "ur": "10 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Mild, dry weather with good sunlight",
+            "ur": "ہلکا خشک موسم اور اچھی دھوپ"
+          },
+          "avoid_using_when": {
+            "en": "Avoid application during high humidity which favors rust spread",
+            "ur": "زیادہ نمی کے دوران استعمال نہ کریں کیونکہ اس سے رسٹ پھیلتا ہے"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Compatible with most systemic fungicides in tank mix",
+            "ur": "زیادہ تر سسٹیمک فنجیسائیڈز کے ساتھ ٹینک مکس میں استعمال کیا جا سکتا ہے"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium improves stomatal regulation and strengthens cell walls, helping the plant resist fungal spore penetration and reducing rust severity.",
+            "ur": "پوٹاشیم اسٹومیٹا کے کنٹرول کو بہتر بناتا ہے اور سیل کی دیواریں مضبوط کرتا ہے، جس سے پودا فنگل اسپورز کے حملے کے خلاف مزاحمت کرتا ہے اور رسٹ کی شدت کم ہوتی ہے۔"
+          },
+          "purpose": {
+            "en": "Improves disease resistance and stalk strength",
+            "ur": "بیماری کے خلاف مزاحمت اور تنے کی مضبوطی بڑھاتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Reduces lodging risk and supports better grain fill despite rust pressure",
+            "ur": "گرنے کے خطرے کو کم کرتا ہے اور رسٹ کے باوجود دانوں کی بہتر بھرائی میں مدد دیتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "60-80 kg per acre",
+            "ur": "60-80 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At knee-high growth stage",
+            "ur": "جب پودا گھٹنے کے برابر اونچائی تک پہنچے"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry conditions with moderate temperature",
+            "ur": "خشک حالات اور معتدل درجہ حرارت"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged fields",
+            "ur": "پانی کھڑے کھیتوں میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No known negative interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل معلوم نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "NPK 20-20-20 (Water Soluble)",
+          "ur": "این پی کے 20-20-20 (پانی میں حل پذیر)"
+        },
+        "reason": {
+          "en": "A balanced foliar feed quickly restores nutrient uptake disrupted by rust infection and supports faster canopy recovery.",
+          "ur": "متوازن فولیئر خوراک رسٹ انفیکشن سے متاثرہ غذائی جذب کو تیزی سے بحال کرتی ہے اور پودے کی جلد بحالی میں مدد دیتی ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid excess nitrogen alone as it can increase leaf tenderness favoring rust",
+          "ur": "صرف اضافی نائٹروجن سے گریز کریں کیونکہ اس سے پتے نرم ہو کر رسٹ کے لیے موزوں ہو جاتے ہیں"
+        },
+        {
+          "en": "Ensure good field ventilation by proper plant spacing",
+          "ur": "پودوں کے درمیان مناسب فاصلہ رکھ کر کھیت میں ہوا کی آمدورفت یقینی بنائیں"
+        },
+        {
+          "en": "Combine nutrient management with recommended fungicide schedule for best results",
+          "ur": "بہترین نتائج کے لیے غذائی انتظام کو تجویز کردہ فنجیسائیڈ شیڈول کے ساتھ ملائیں"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "disease_name": {
+        "en": "Corn Gray Leaf Spot",
+        "ur": "مکئی کے پتوں کا سرمئی دھبہ"
+      },
+      "crop": "Corn",
+      "class_name": "Corn___Gray_Leaf_Spot",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium strengthens cell walls and improves water regulation within leaf tissue, reducing the favorable conditions gray leaf spot fungus needs to spread.",
+            "ur": "پوٹاشیم سیل کی دیواریں مضبوط کرتا ہے اور پتوں کے بافتوں میں پانی کے توازن کو بہتر بناتا ہے، جس سے سرمئی دھبے کی فنگس کے پھیلاؤ کے لیے سازگار حالات کم ہو جاتے ہیں۔"
+          },
+          "purpose": {
+            "en": "Enhances tissue resistance and reduces lesion spread",
+            "ur": "بافتوں کی مزاحمت بڑھاتا ہے اور زخموں کے پھیلاؤ کو کم کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Slows disease progression and helps maintain green leaf area for longer grain fill period",
+            "ur": "بیماری کی رفتار کو سست کرتا ہے اور سبز پتوں کے رقبے کو زیادہ دیر تک برقرار رکھنے میں مدد دیتا ہے تاکہ دانے بہتر بھریں"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "70-90 kg per acre",
+            "ur": "70-90 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At V6-V8 growth stage",
+            "ur": "V6-V8 نشوونما کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry weather with good air circulation",
+            "ur": "خشک موسم اور اچھی ہوا کی آمدورفت"
+          },
+          "avoid_using_when": {
+            "en": "Prolonged wet or humid conditions",
+            "ur": "طویل عرصے تک گیلے یا مرطوب حالات میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Zinc Sulphate",
+            "ur": "زنک سلفیٹ"
+          },
+          "brand_examples_pakistan": [
+            "Engro Zinc Sulphate",
+            "ICI Zinc Sulphate"
+          ],
+          "type": {
+            "en": "Micronutrient Fertilizer",
+            "ur": "مائیکرو نیوٹرینٹ کھاد"
+          },
+          "description": {
+            "en": "Zinc is essential for enzyme activity and chlorophyll synthesis; deficiency weakens plant defenses, so correcting it helps the plant better withstand fungal stress.",
+            "ur": "زنک انزائم کی سرگرمی اور کلوروفل کی تشکیل کے لیے ضروری ہے؛ اس کی کمی پودے کی مدافعت کو کمزور کرتی ہے، لہٰذا اسے درست کرنے سے پودا فنگل دباؤ کا بہتر مقابلہ کرتا ہے۔"
+          },
+          "purpose": {
+            "en": "Corrects micronutrient deficiency and supports plant defense",
+            "ur": "مائیکرو نیوٹرینٹ کی کمی دور کرتا ہے اور پودے کی مدافعت کو سہارا دیتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Improves overall leaf health and vigor, reducing disease severity over time",
+            "ur": "مجموعی طور پر پتوں کی صحت اور طاقت بہتر بناتا ہے اور وقت کے ساتھ بیماری کی شدت کم کرتا ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "1 kg per 100 liters of water",
+            "ur": "1 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "At early vegetative stage or when deficiency symptoms are noticed",
+            "ur": "ابتدائی نشوونما کے مرحلے پر یا جب کمی کی علامات نظر آئیں"
+          },
+          "repeat_after_days": {
+            "en": "14 days",
+            "ur": "14 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Cool, dry mornings",
+            "ur": "ٹھنڈی، خشک صبح"
+          },
+          "avoid_using_when": {
+            "en": "Avoid mixing with strongly alkaline sprays",
+            "ur": "شدید الکلائن سپرے کے ساتھ ملانے سے گریز کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Generally compatible, but test small batch before tank-mixing with fungicides",
+            "ur": "عام طور پر موزوں ہے، لیکن فنجیسائیڈز کے ساتھ ملانے سے پہلے تھوڑی مقدار سے ٹیسٹ کریں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Potassium is the primary nutrient linked to reducing gray leaf spot severity by improving structural resistance in corn leaves.",
+          "ur": "پوٹاشیم مکئی کے پتوں میں ساختی مزاحمت بہتر بنا کر سرمئی دھبے کی شدت کم کرنے سے جڑا بنیادی غذائی جزو ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Practice crop rotation to reduce fungal inoculum in soil",
+          "ur": "زمین میں فنجل انوکولم کم کرنے کے لیے فصلوں کی ہیر پھیر (روٹیشن) کریں"
+        },
+        {
+          "en": "Avoid dense planting to improve air circulation",
+          "ur": "ہوا کی آمدورفت بہتر بنانے کے لیے گنجان کاشت سے گریز کریں"
+        },
+        {
+          "en": "Remove infected crop residue after harvest",
+          "ur": "فصل کاٹنے کے بعد متاثرہ باقیات کو کھیت سے ہٹا دیں"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "disease_name": {
+        "en": "Corn Healthy",
+        "ur": "صحت مند مکئی"
+      },
+      "crop": "Corn",
+      "class_name": "Corn___Healthy",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "NPK 20-20-20 (Water Soluble)",
+            "ur": "این پی کے 20-20-20 (پانی میں حل پذیر)"
+          },
+          "brand_examples_pakistan": [
+            "Engro NPK 20-20-20",
+            "Ravi Zarkhez NPK"
+          ],
+          "type": {
+            "en": "Balanced NPK Fertilizer",
+            "ur": "متوازن این پی کے کھاد"
+          },
+          "description": {
+            "en": "A balanced blend of nitrogen, phosphorus, and potassium supports vegetative growth, root development, and reproductive stages for maximum yield potential.",
+            "ur": "نائٹروجن، فاسفورس اور پوٹاشیم کا متوازن مرکب نشوونما، جڑوں کی بڑھوتری اور تولیدی مراحل کو سہارا دیتا ہے تاکہ زیادہ سے زیادہ پیداوار حاصل ہو۔"
+          },
+          "purpose": {
+            "en": "Maintains balanced nutrition for optimal growth",
+            "ur": "بہترین نشوونما کے لیے متوازن غذائیت برقرار رکھتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Promotes strong stalks, healthy cob development, and improved yield",
+            "ur": "مضبوط تنے، صحت مند بھٹے کی نشوونما اور بہتر پیداوار کو فروغ دیتی ہے"
+          },
+          "application_method": {
+            "en": "Fertigation",
+            "ur": "آبپاشی کے ساتھ کھاد (فرٹی گیشن)"
+          },
+          "dosage": {
+            "en": "3-4 kg per acre per application",
+            "ur": "3-4 کلوگرام فی ایکڑ ہر بار"
+          },
+          "first_application": {
+            "en": "At V4-V6 growth stage",
+            "ur": "V4-V6 نشوونما کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "14 days",
+            "ur": "14 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Warm growing season with adequate soil moisture",
+            "ur": "گرم موسم اور زمین میں مناسب نمی"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged or drought-stressed soil",
+            "ur": "پانی کھڑی یا خشک سالی والی زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable, no fungicide needed for healthy crop",
+            "ur": "لاگو نہیں، صحت مند فصل کے لیے فنجیسائیڈ کی ضرورت نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Urea",
+            "ur": "یوریا"
+          },
+          "brand_examples_pakistan": [
+            "Engro Urea",
+            "Fauji Sona Urea"
+          ],
+          "type": {
+            "en": "Nitrogen Fertilizer",
+            "ur": "نائٹروجن کھاد"
+          },
+          "description": {
+            "en": "Urea provides the nitrogen needed for chlorophyll production and vegetative growth, essential for a healthy, vigorous corn crop.",
+            "ur": "یوریا کلوروفل کی پیداوار اور نشوونما کے لیے درکار نائٹروجن فراہم کرتی ہے، جو صحت مند اور طاقتور مکئی کی فصل کے لیے ضروری ہے۔"
+          },
+          "purpose": {
+            "en": "Supports vegetative growth and yield potential",
+            "ur": "نشوونما اور پیداواری صلاحیت کو سہارا دیتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Encourages robust leaf and stalk growth leading to higher grain yield",
+            "ur": "مضبوط پتوں اور تنوں کی نشوونما کو فروغ دیتی ہے جس سے دانوں کی پیداوار بڑھتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "50 kg per acre per split dose",
+            "ur": "50 کلوگرام فی ایکڑ ہر حصے میں"
+          },
+          "first_application": {
+            "en": "At sowing and again at knee-high stage",
+            "ur": "بوائی کے وقت اور دوبارہ جب پودا گھٹنے کی اونچائی تک پہنچے"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moist soil conditions before rainfall or irrigation",
+            "ur": "بارش یا آبپاشی سے پہلے نم زمین کے حالات"
+          },
+          "avoid_using_when": {
+            "en": "Dry soil without irrigation planned",
+            "ur": "بغیر آبپاشی کے خشک زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "NPK 20-20-20 (Water Soluble)",
+          "ur": "این پی کے 20-20-20 (پانی میں حل پذیر)"
+        },
+        "reason": {
+          "en": "Balanced nutrition throughout the growth cycle maximizes yield potential and keeps the healthy crop resilient to future stress.",
+          "ur": "پوری نشوونما کے دوران متوازن غذائیت پیداواری صلاحیت کو بڑھاتی ہے اور صحت مند فصل کو مستقبل کے دباؤ کے خلاف مضبوط رکھتی ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Maintain a regular irrigation schedule for best nutrient uptake",
+          "ur": "بہترین غذائی جذب کے لیے باقاعدہ آبپاشی کا شیڈول برقرار رکھیں"
+        },
+        {
+          "en": "Conduct periodic soil testing to fine-tune fertilizer doses",
+          "ur": "کھاد کی مقدار درست کرنے کے لیے وقتاً فوقتاً مٹی کا ٹیسٹ کروائیں"
+        },
+        {
+          "en": "Monitor crop regularly to catch early signs of nutrient deficiency",
+          "ur": "غذائی کمی کی ابتدائی علامات پکڑنے کے لیے فصل کا باقاعدہ معائنہ کریں"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "disease_name": {
+        "en": "Corn Northern Leaf Blight",
+        "ur": "مکئی کا شمالی پتوں کا بلائیٹ"
+      },
+      "crop": "Corn",
+      "class_name": "Corn___Northern_Leaf_Blight",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "NPK 12-12-17+2MgO",
+            "ur": "این پی کے 12-12-17+2 ایم جی او"
+          },
+          "brand_examples_pakistan": [
+            "Engro NPK 12-12-17+2MgO",
+            "Sona NPK Blends"
+          ],
+          "type": {
+            "en": "Balanced NPK Fertilizer with Magnesium",
+            "ur": "میگنیشیم کے ساتھ متوازن این پی کے کھاد"
+          },
+          "description": {
+            "en": "This blend supplies balanced macronutrients plus magnesium, which supports chlorophyll production and helps the plant compensate for photosynthetic losses caused by blight lesions.",
+            "ur": "یہ مرکب متوازن میکرو نیوٹرینٹس کے ساتھ میگنیشیم بھی فراہم کرتا ہے جو کلوروفل کی پیداوار میں مدد دیتا ہے اور بلائیٹ کے زخموں سے ہونے والے فوٹو سنتھیسز کے نقصان کی تلافی کرتا ہے۔"
+          },
+          "purpose": {
+            "en": "Supports recovery and photosynthetic efficiency",
+            "ur": "بحالی اور فوٹو سنتھیسز کی کارکردگی کو سہارا دیتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Helps maintain green leaf tissue and grain fill despite lesion damage",
+            "ur": "زخموں کے نقصان کے باوجود سبز پتوں کے بافتوں اور دانوں کی بھرائی کو برقرار رکھنے میں مدد دیتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "80-100 kg per acre",
+            "ur": "80-100 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At first sign of lesions",
+            "ur": "زخموں کی پہلی علامت پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry, moderate humidity conditions",
+            "ur": "خشک، معتدل نمی والے حالات"
+          },
+          "avoid_using_when": {
+            "en": "Excess soil moisture or waterlogging",
+            "ur": "زمین میں زیادہ نمی یا پانی کھڑا ہونے کی صورت میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium enhances the plant's structural resistance and helps regulate water loss through damaged leaf tissue, slowing lesion expansion.",
+            "ur": "پوٹاشیم پودے کی ساختی مزاحمت بڑھاتا ہے اور متاثرہ پتوں کے بافتوں سے پانی کے ضیاع کو کنٹرول کرنے میں مدد دیتا ہے، جس سے زخموں کا پھیلاؤ سست ہوتا ہے۔"
+          },
+          "purpose": {
+            "en": "Improves resistance and reduces lesion expansion",
+            "ur": "مزاحمت بہتر بناتا ہے اور زخموں کے پھیلاؤ کو کم کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Reduces yield loss by supporting stronger, more resilient plant tissue",
+            "ur": "زیادہ مضبوط اور لچکدار پودوں کے بافتوں کو سہارا دے کر پیداوار کے نقصان کو کم کرتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "60-80 kg per acre",
+            "ur": "60-80 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At V6 growth stage",
+            "ur": "V6 نشوونما کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry weather with good sunlight",
+            "ur": "خشک موسم اور اچھی دھوپ"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged fields",
+            "ur": "پانی کھڑے کھیتوں میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No known negative interaction",
+            "ur": "کوئی معلوم منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "NPK 12-12-17+2MgO",
+          "ur": "این پی کے 12-12-17+2 ایم جی او"
+        },
+        "reason": {
+          "en": "The added magnesium supports chlorophyll regeneration, helping the plant recover photosynthetic capacity lost to blight lesions.",
+          "ur": "اضافی میگنیشیم کلوروفل کی بحالی میں مدد دیتا ہے، جس سے پودا بلائیٹ کے زخموں کی وجہ سے کھوئی ہوئی فوٹو سنتھیسز صلاحیت دوبارہ حاصل کرتا ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Rotate crops to reduce fungal spores surviving in soil",
+          "ur": "زمین میں موجود فنگل اسپورز کم کرنے کے لیے فصلوں کی ہیر پھیر کریں"
+        },
+        {
+          "en": "Avoid overhead irrigation which spreads spores",
+          "ur": "اوپر سے آبپاشی سے گریز کریں کیونکہ اس سے اسپورز پھیلتے ہیں"
+        },
+        {
+          "en": "Select resistant hybrid varieties in future planting where possible",
+          "ur": "مستقبل کی کاشت میں جہاں ممکن ہو مزاحم ہائبرڈ اقسام کا انتخاب کریں"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "disease_name": {
+        "en": "Healthy Plant",
+        "ur": "صحت مند پودا"
+      },
+      "crop": "Sugarcane",
+      "class_name": "Healthy",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "NPK 15-15-15",
+            "ur": "این پی کے 15-15-15"
+          },
+          "brand_examples_pakistan": [
+            "Engro NPK 15-15-15",
+            "Fauji NPK 15-15-15"
+          ],
+          "type": {
+            "en": "Balanced NPK Fertilizer",
+            "ur": "متوازن این پی کے کھاد"
+          },
+          "description": {
+            "en": "An equal-ratio blend of nitrogen, phosphorus, and potassium that supports balanced vegetative and reproductive growth for general crop maintenance.",
+            "ur": "نائٹروجن، فاسفورس اور پوٹاشیم کا برابر تناسب والا مرکب جو عام فصل کی دیکھ بھال کے لیے متوازن نشوونما اور تولیدی نشوونما کو سہارا دیتا ہے۔"
+          },
+          "purpose": {
+            "en": "Maintains general nutrient balance",
+            "ur": "عمومی غذائی توازن برقرار رکھتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Supports steady, healthy growth and helps the plant build resilience against future stress",
+            "ur": "مستحکم اور صحت مند نشوونما کو سہارا دیتی ہے اور پودے کو مستقبل کے دباؤ کے خلاف مضبوط بناتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "50-60 kg per acre",
+            "ur": "50-60 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At active growth stage",
+            "ur": "فعال نشوونما کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moderate temperature with adequate soil moisture",
+            "ur": "معتدل درجہ حرارت اور زمین میں مناسب نمی"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged or extremely dry soil",
+            "ur": "پانی کھڑی یا انتہائی خشک زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Vermicompost",
+            "ur": "ورمی کمپوسٹ"
+          },
+          "brand_examples_pakistan": [
+            "Local Organic Suppliers",
+            "Engro Organic"
+          ],
+          "type": {
+            "en": "Organic Fertilizer",
+            "ur": "نامیاتی کھاد"
+          },
+          "description": {
+            "en": "Vermicompost improves soil structure, microbial activity, and slow-releases essential nutrients, supporting long-term plant health and soil fertility.",
+            "ur": "ورمی کمپوسٹ زمین کی ساخت اور جراثیمی سرگرمی کو بہتر بناتا ہے اور آہستہ آہستہ ضروری غذائی اجزاء خارج کرتا ہے، جو طویل مدتی پودوں کی صحت اور زمین کی زرخیزی کو سہارا دیتا ہے۔"
+          },
+          "purpose": {
+            "en": "Improves soil health and nutrient availability",
+            "ur": "زمین کی صحت اور غذائی اجزاء کی دستیابی کو بہتر بناتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Enhances root development and overall plant vigor over time",
+            "ur": "وقت کے ساتھ جڑوں کی نشوونما اور پودے کی مجموعی طاقت بڑھاتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "1-1.5 tons per acre",
+            "ur": "1-1.5 ٹن فی ایکڑ"
+          },
+          "first_application": {
+            "en": "Before or during sowing/transplanting",
+            "ur": "بوائی یا پنیری لگانے سے پہلے یا اس دوران"
+          },
+          "repeat_after_days": {
+            "en": "30 days",
+            "ur": "30 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Any season, best incorporated before planting",
+            "ur": "کسی بھی موسم میں، بہتر ہے کہ کاشت سے پہلے زمین میں ملایا جائے"
+          },
+          "avoid_using_when": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "NPK 15-15-15",
+          "ur": "این پی کے 15-15-15"
+        },
+        "reason": {
+          "en": "A balanced fertilizer keeps an already healthy plant well-nourished and better prepared to resist future disease or pest pressure.",
+          "ur": "متوازن کھاد پہلے سے صحت مند پودے کو اچھی غذائیت فراہم رکھتی ہے اور مستقبل کی بیماری یا کیڑوں کے دباؤ کے خلاف بہتر تیار کرتی ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Continue regular monitoring even when the plant appears healthy",
+          "ur": "پودا صحت مند نظر آنے کے باوجود باقاعدہ معائنہ جاری رکھیں"
+        },
+        {
+          "en": "Maintain a consistent irrigation and fertilization schedule",
+          "ur": "آبپاشی اور کھاد کا مستقل شیڈول برقرار رکھیں"
+        },
+        {
+          "en": "Test soil periodically to avoid over or under-fertilization",
+          "ur": "زیادہ یا کم کھاد سے بچنے کے لیے وقتاً فوقتاً مٹی کا ٹیسٹ کروائیں"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "disease_name": {
+        "en": "Potato Early Blight",
+        "ur": "آلو کا ابتدائی بلائیٹ"
+      },
+      "crop": "Potato",
+      "class_name": "Potato___Early_Blight",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Calcium Nitrate",
+            "ur": "کیلشیم نائٹریٹ"
+          },
+          "brand_examples_pakistan": [
+            "Yara Calcium Nitrate"
+          ],
+          "type": {
+            "en": "Calcium-based Fertilizer",
+            "ur": "کیلشیم پر مبنی کھاد"
+          },
+          "description": {
+            "en": "Supplies calcium and nitrate-nitrogen together; calcium strengthens cell walls in leaves and tubers, reducing susceptibility to early blight fungal penetration.",
+            "ur": "کیلشیم اور نائٹریٹ نائٹروجن اکٹھے فراہم کرتی ہے؛ کیلشیم پتوں اور آلوؤں کی سیل دیواروں کو مضبوط کرتا ہے جس سے ابتدائی بلائیٹ فنگس کے حملے کا خطرہ کم ہوتا ہے۔"
+          },
+          "purpose": {
+            "en": "Strengthens tissue and reduces disease susceptibility",
+            "ur": "بافتوں کو مضبوط کرتی ہے اور بیماری کی حساسیت کم کرتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Improves leaf tissue firmness and reduces lesion spread, supporting better tuber development",
+            "ur": "پتوں کے بافتوں کی مضبوطی بہتر بناتی ہے، زخموں کے پھیلاؤ کو کم کرتی ہے اور آلوؤں کی بہتر نشوونما میں مدد دیتی ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "1-1.5 kg per 100 liters of water",
+            "ur": "1-1.5 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "At early vegetative stage, before or at first symptom appearance",
+            "ur": "ابتدائی نشوونما کے مرحلے پر، پہلی علامت ظاہر ہونے سے پہلے یا اس وقت"
+          },
+          "repeat_after_days": {
+            "en": "10 days",
+            "ur": "10 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Cool, dry weather with good air circulation",
+            "ur": "ٹھنڈا، خشک موسم اور اچھی ہوا کی آمدورفت"
+          },
+          "avoid_using_when": {
+            "en": "High humidity or rainy periods",
+            "ur": "زیادہ نمی یا بارش کے دنوں میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Compatible with most protectant fungicides",
+            "ur": "زیادہ تر حفاظتی فنجیسائیڈز کے ساتھ موزوں ہے"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium supports water regulation and structural resistance in potato foliage, helping slow the spread of early blight lesions.",
+            "ur": "پوٹاشیم آلو کے پتوں میں پانی کے توازن اور ساختی مزاحمت کو سہارا دیتا ہے، جس سے ابتدائی بلائیٹ کے زخموں کا پھیلاؤ سست ہوتا ہے۔"
+          },
+          "purpose": {
+            "en": "Improves resistance and slows lesion progression",
+            "ur": "مزاحمت بہتر بناتا ہے اور زخموں کی رفتار کو سست کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Supports healthier canopy and better tuber bulking despite disease pressure",
+            "ur": "بیماری کے دباؤ کے باوجود صحت مند پتوں اور آلوؤں کی بہتر افزائش کو سہارا دیتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "80-100 kg per acre",
+            "ur": "80-100 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At tuber initiation stage",
+            "ur": "آلو بننے کے ابتدائی مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry, moderate temperature conditions",
+            "ur": "خشک، معتدل درجہ حرارت کے حالات"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged soil",
+            "ur": "پانی کھڑی زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Calcium Nitrate",
+          "ur": "کیلشیم نائٹریٹ"
+        },
+        "reason": {
+          "en": "Calcium is the most directly linked nutrient to cell wall integrity, making it the priority choice for managing early blight susceptibility.",
+          "ur": "کیلشیم سیل کی دیوار کی مضبوطی سے براہ راست جڑا غذائی جزو ہے، اسی لیے ابتدائی بلائیٹ کی حساسیت کے انتظام کے لیے اسے ترجیح دی جاتی ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid overhead irrigation late in the day to reduce leaf wetness duration",
+          "ur": "دن کے آخر میں اوپر سے آبپاشی سے گریز کریں تاکہ پتے زیادہ دیر گیلے نہ رہیں"
+        },
+        {
+          "en": "Practice crop rotation with non-solanaceous crops",
+          "ur": "غیر سولینیسی فصلوں کے ساتھ فصلوں کی ہیر پھیر کریں"
+        },
+        {
+          "en": "Remove and destroy infected foliage debris after harvest",
+          "ur": "فصل کاٹنے کے بعد متاثرہ پتوں کی باقیات ہٹا کر تلف کریں"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "disease_name": {
+        "en": "Potato Healthy",
+        "ur": "صحت مند آلو"
+      },
+      "crop": "Potato",
+      "class_name": "Potato___Healthy",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "NPK 12-12-17+2MgO",
+            "ur": "این پی کے 12-12-17+2 ایم جی او"
+          },
+          "brand_examples_pakistan": [
+            "Engro NPK 12-12-17+2MgO"
+          ],
+          "type": {
+            "en": "Balanced NPK Fertilizer with Magnesium",
+            "ur": "میگنیشیم کے ساتھ متوازن این پی کے کھاد"
+          },
+          "description": {
+            "en": "This blend is tailored for tuber crops, supplying balanced nutrients plus magnesium to support strong canopy growth and efficient tuber bulking.",
+            "ur": "یہ مرکب آلو جیسی فصلوں کے لیے تیار کیا گیا ہے جو متوازن غذائی اجزاء کے ساتھ میگنیشیم بھی فراہم کرتا ہے تاکہ پتوں کی مضبوط نشوونما اور آلوؤں کی موثر افزائش ہو۔"
+          },
+          "purpose": {
+            "en": "Supports balanced growth and tuber development",
+            "ur": "متوازن نشوونما اور آلوؤں کی نشوونما کو سہارا دیتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Promotes higher tuber yield and better tuber quality",
+            "ur": "آلوؤں کی زیادہ پیداوار اور بہتر معیار کو فروغ دیتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "100-125 kg per acre",
+            "ur": "100-125 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At planting and tuber initiation stage",
+            "ur": "کاشت اور آلو بننے کے ابتدائی مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moderate temperature with consistent soil moisture",
+            "ur": "معتدل درجہ حرارت اور زمین میں مستقل نمی"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged or drought-stressed soil",
+            "ur": "پانی کھڑی یا خشک سالی والی زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "MOP (Muriate of Potash)",
+            "ur": "ایم او پی (میوریٹ آف پوٹاش)"
+          },
+          "brand_examples_pakistan": [
+            "Engro MOP",
+            "Fauji MOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "MOP supplies potassium, a key nutrient for tuber bulking, starch accumulation, and overall tuber quality in potato crops.",
+            "ur": "ایم او پی پوٹاشیم فراہم کرتی ہے جو آلوؤں کی افزائش، نشاستے کے جمع ہونے اور مجموعی معیار کے لیے اہم غذائی جزو ہے۔"
+          },
+          "purpose": {
+            "en": "Boosts tuber size and quality",
+            "ur": "آلوؤں کے سائز اور معیار کو بڑھاتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Improves tuber bulking and market quality of harvested potatoes",
+            "ur": "آلوؤں کی افزائش اور کٹائی کے بعد مارکیٹ کے معیار کو بہتر بناتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "80-100 kg per acre",
+            "ur": "80-100 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At tuber initiation stage",
+            "ur": "آلو بننے کے ابتدائی مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moderate weather with adequate irrigation",
+            "ur": "معتدل موسم اور مناسب آبپاشی"
+          },
+          "avoid_using_when": {
+            "en": "Excessively wet soil",
+            "ur": "انتہائی گیلی زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "NPK 12-12-17+2MgO",
+          "ur": "این پی کے 12-12-17+2 ایم جی او"
+        },
+        "reason": {
+          "en": "The balanced nutrient ratio combined with magnesium supports both canopy health and efficient tuber development in a healthy potato crop.",
+          "ur": "متوازن غذائی تناسب میگنیشیم کے ساتھ مل کر صحت مند آلو کی فصل میں پتوں کی صحت اور آلوؤں کی موثر نشوونما دونوں کو سہارا دیتا ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Maintain consistent soil moisture, especially during tuber bulking stage",
+          "ur": "خصوصاً آلوؤں کی افزائش کے مرحلے پر زمین میں مستقل نمی برقرار رکھیں"
+        },
+        {
+          "en": "Hill soil around plants to protect developing tubers",
+          "ur": "بڑھتے ہوئے آلوؤں کی حفاظت کے لیے پودوں کے گرد مٹی چڑھائیں"
+        },
+        {
+          "en": "Monitor for early signs of stress even in healthy fields",
+          "ur": "صحت مند کھیتوں میں بھی دباؤ کی ابتدائی علامات کے لیے نگرانی کریں"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "disease_name": {
+        "en": "Potato Late Blight",
+        "ur": "آلو کا لیٹ بلائیٹ"
+      },
+      "crop": "Potato",
+      "class_name": "Potato___Late_Blight",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium strengthens cell walls and improves the plant's ability to regulate water loss, helping reduce the severity of late blight spread under humid conditions.",
+            "ur": "پوٹاشیم سیل کی دیواریں مضبوط کرتا ہے اور پانی کے ضیاع کو کنٹرول کرنے کی صلاحیت بہتر بناتا ہے، جس سے مرطوب حالات میں لیٹ بلائیٹ کے پھیلاؤ کی شدت کم ہوتی ہے۔"
+          },
+          "purpose": {
+            "en": "Improves structural resistance to disease spread",
+            "ur": "بیماری کے پھیلاؤ کے خلاف ساختی مزاحمت بہتر بناتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Slows lesion expansion and supports better tuber protection from blight-related decay",
+            "ur": "زخموں کے پھیلاؤ کو سست کرتا ہے اور بلائیٹ سے متعلقہ سڑاؤ سے آلوؤں کی بہتر حفاظت کرتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "100-125 kg per acre",
+            "ur": "100-125 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "As soon as blight risk conditions are forecast or symptoms appear",
+            "ur": "جیسے ہی بلائیٹ کے خطرے کی پیش گوئی ہو یا علامات ظاہر ہوں"
+          },
+          "repeat_after_days": {
+            "en": "14 days",
+            "ur": "14 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Cooler temperatures with reduced humidity when possible",
+            "ur": "جہاں ممکن ہو ٹھنڈا درجہ حرارت اور کم نمی"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged soil, which favors blight development",
+            "ur": "پانی کھڑی زمین میں استعمال نہ کریں کیونکہ اس سے بلائیٹ بڑھتی ہے"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Calcium Nitrate",
+            "ur": "کیلشیم نائٹریٹ"
+          },
+          "brand_examples_pakistan": [
+            "Yara Calcium Nitrate"
+          ],
+          "type": {
+            "en": "Calcium-based Fertilizer",
+            "ur": "کیلشیم پر مبنی کھاد"
+          },
+          "description": {
+            "en": "Calcium reinforces cell wall structure in both foliage and developing tubers, helping limit fungal penetration and reducing tuber rot risk.",
+            "ur": "کیلشیم پتوں اور بننے والے آلوؤں دونوں کی سیل دیوار کی ساخت مضبوط کرتا ہے، جس سے فنگس کے حملے کو محدود کرنے اور آلوؤں کے سڑنے کے خطرے کو کم کرنے میں مدد ملتی ہے۔"
+          },
+          "purpose": {
+            "en": "Strengthens tissue and reduces tuber infection risk",
+            "ur": "بافتوں کو مضبوط کرتا ہے اور آلوؤں کے انفیکشن کا خطرہ کم کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Helps protect tuber quality and reduces post-harvest rot associated with late blight",
+            "ur": "آلوؤں کے معیار کی حفاظت میں مدد دیتا ہے اور لیٹ بلائیٹ سے منسلک کٹائی کے بعد سڑاؤ کو کم کرتا ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "1.5-2 kg per 100 liters of water",
+            "ur": "1.5-2 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "At first sign of disease pressure",
+            "ur": "بیماری کے دباؤ کی پہلی علامت پر"
+          },
+          "repeat_after_days": {
+            "en": "10 days",
+            "ur": "10 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry, cool mornings",
+            "ur": "خشک، ٹھنڈی صبح"
+          },
+          "avoid_using_when": {
+            "en": "Rainy or highly humid conditions",
+            "ur": "بارش یا زیادہ نمی والے حالات میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Compatible with recommended systemic fungicides",
+            "ur": "تجویز کردہ سسٹیمک فنجیسائیڈز کے ساتھ موزوں ہے"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Potassium is critical for reducing late blight severity as it directly improves the plant's structural and physiological resistance during high humidity periods.",
+          "ur": "پوٹاشیم لیٹ بلائیٹ کی شدت کم کرنے کے لیے اہم ہے کیونکہ یہ زیادہ نمی کے دوران پودے کی ساختی اور طبعی مزاحمت کو براہ راست بہتر بناتا ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid overhead irrigation, especially in the evening",
+          "ur": "خصوصاً شام کے وقت اوپر سے آبپاشی سے گریز کریں"
+        },
+        {
+          "en": "Ensure good field drainage to prevent excess moisture buildup",
+          "ur": "اضافی نمی جمع ہونے سے روکنے کے لیے کھیت کی اچھی نکاسی آب یقینی بنائیں"
+        },
+        {
+          "en": "Destroy infected plant debris promptly to prevent spore spread",
+          "ur": "اسپورز کے پھیلاؤ کو روکنے کے لیے متاثرہ پودوں کی باقیات فوری تلف کریں"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "disease_name": {
+        "en": "Sugarcane Red Rot",
+        "ur": "گنے کا ریڈ روٹ"
+      },
+      "crop": "Sugarcane",
+      "class_name": "Red Rot",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium strengthens internal stalk tissue and improves the plant's physiological resistance, helping limit the internal spread of red rot fungus within the stalk.",
+            "ur": "پوٹاشیم گنے کے اندرونی بافتوں کو مضبوط کرتا ہے اور طبعی مزاحمت بہتر بناتا ہے، جس سے تنے کے اندر ریڈ روٹ فنگس کے پھیلاؤ کو محدود کرنے میں مدد ملتی ہے۔"
+          },
+          "purpose": {
+            "en": "Improves stalk resistance and reduces internal spread",
+            "ur": "تنے کی مزاحمت بہتر بناتا ہے اور اندرونی پھیلاؤ کو کم کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Supports firmer stalk tissue and helps maintain juice quality in less-affected canes",
+            "ur": "مضبوط تنے کے بافتوں کو سہارا دیتا ہے اور کم متاثرہ گنے میں رس کے معیار کو برقرار رکھنے میں مدد دیتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "100-125 kg per acre",
+            "ur": "100-125 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At early tillering stage or when symptoms are first noticed",
+            "ur": "ابتدائی کلوں کے مرحلے پر یا جب علامات پہلی بار نظر آئیں"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry, moderate weather conditions",
+            "ur": "خشک، معتدل موسمی حالات"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged fields, which worsen red rot severity",
+            "ur": "پانی کھڑے کھیتوں میں استعمال نہ کریں کیونکہ اس سے ریڈ روٹ بڑھتا ہے"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No known adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی معلوم منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Zinc Sulphate",
+            "ur": "زنک سلفیٹ"
+          },
+          "brand_examples_pakistan": [
+            "Engro Zinc Sulphate",
+            "ICI Zinc Sulphate"
+          ],
+          "type": {
+            "en": "Micronutrient Fertilizer",
+            "ur": "مائیکرو نیوٹرینٹ کھاد"
+          },
+          "description": {
+            "en": "Zinc supports enzymatic and metabolic processes essential for plant defense responses, helping the crop better withstand red rot infection pressure.",
+            "ur": "زنک انزائمی اور میٹابولک عمل کو سہارا دیتا ہے جو پودے کی مدافعتی ردعمل کے لیے ضروری ہیں، جس سے فصل ریڈ روٹ انفیکشن کے دباؤ کا بہتر مقابلہ کرتی ہے۔"
+          },
+          "purpose": {
+            "en": "Supports plant defense metabolism",
+            "ur": "پودے کی مدافعتی میٹابولزم کو سہارا دیتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Improves overall plant vigor and helps reduce disease severity in moderately affected fields",
+            "ur": "پودے کی مجموعی طاقت بہتر بناتا ہے اور معتدل متاثرہ کھیتوں میں بیماری کی شدت کم کرنے میں مدد دیتا ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "1-1.5 kg per 100 liters of water",
+            "ur": "1-1.5 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "At early vegetative stage or upon deficiency symptoms",
+            "ur": "ابتدائی نشوونما کے مرحلے پر یا کمی کی علامات ظاہر ہونے پر"
+          },
+          "repeat_after_days": {
+            "en": "14 days",
+            "ur": "14 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Cool, dry mornings",
+            "ur": "ٹھنڈی، خشک صبح"
+          },
+          "avoid_using_when": {
+            "en": "Avoid application right before heavy rainfall",
+            "ur": "شدید بارش سے فوراً پہلے استعمال سے گریز کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Generally compatible, test compatibility before tank-mixing",
+            "ur": "عام طور پر موزوں ہے، ٹینک مکس سے پہلے ٹیسٹ کریں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Potassium is the key nutrient for improving stalk resistance and slowing the internal progression of red rot disease in sugarcane.",
+          "ur": "پوٹاشیم گنے میں تنے کی مزاحمت بہتر بنانے اور ریڈ روٹ بیماری کی اندرونی رفتار سست کرنے کے لیے کلیدی غذائی جزو ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Use disease-free, treated seed cane for planting",
+          "ur": "کاشت کے لیے بیماری سے پاک، علاج شدہ بیج گنا استعمال کریں"
+        },
+        {
+          "en": "Avoid waterlogging and ensure proper field drainage",
+          "ur": "پانی کھڑا ہونے سے بچیں اور کھیت کی مناسب نکاسی آب یقینی بنائیں"
+        },
+        {
+          "en": "Remove and burn severely infected stalks to reduce inoculum",
+          "ur": "انوکولم کم کرنے کے لیے شدید متاثرہ گنے کو نکال کر جلا دیں"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "disease_name": {
+        "en": "Rice Brown Spot",
+        "ur": "چاول کا بھورا دھبہ"
+      },
+      "crop": "Rice",
+      "class_name": "Rice___Brown_Spot",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium deficiency is strongly linked to brown spot severity in rice; supplying adequate potassium improves tissue strength and reduces lesion development.",
+            "ur": "چاول میں پوٹاشیم کی کمی بھورے دھبے کی شدت سے گہرا تعلق رکھتی ہے؛ مناسب پوٹاشیم فراہم کرنے سے بافتوں کی مضبوطی بہتر ہوتی ہے اور زخموں کی نشوونما کم ہوتی ہے۔"
+          },
+          "purpose": {
+            "en": "Corrects potassium deficiency and improves resistance",
+            "ur": "پوٹاشیم کی کمی دور کرتا ہے اور مزاحمت بہتر بناتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Reduces lesion number and size, supporting healthier leaf area for grain filling",
+            "ur": "زخموں کی تعداد اور سائز کم کرتا ہے، جس سے دانوں کی بھرائی کے لیے صحت مند پتوں کا رقبہ حاصل ہوتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "60-80 kg per acre",
+            "ur": "60-80 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At tillering stage",
+            "ur": "کلوں کے نکلنے کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Standing water with moderate temperature",
+            "ur": "کھڑا پانی اور معتدل درجہ حرارت"
+          },
+          "avoid_using_when": {
+            "en": "Do not apply during water stress or drought periods",
+            "ur": "پانی کی کمی یا خشک سالی کے دوران استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Zinc Sulphate",
+            "ur": "زنک سلفیٹ"
+          },
+          "brand_examples_pakistan": [
+            "Engro Zinc Sulphate",
+            "ICI Zinc Sulphate"
+          ],
+          "type": {
+            "en": "Micronutrient Fertilizer",
+            "ur": "مائیکرو نیوٹرینٹ کھاد"
+          },
+          "description": {
+            "en": "Zinc deficiency is a common contributing factor to brown spot outbreaks in rice; correcting it restores normal metabolic function and disease tolerance.",
+            "ur": "زنک کی کمی چاول میں بھورے دھبے کے پھیلاؤ کی ایک عام وجہ ہے؛ اسے درست کرنے سے عام میٹابولک کام اور بیماری کی برداشت بحال ہوتی ہے۔"
+          },
+          "purpose": {
+            "en": "Corrects zinc deficiency and boosts plant defense",
+            "ur": "زنک کی کمی دور کرتا ہے اور پودے کی مدافعت بڑھاتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Improves leaf color, vigor, and reduces susceptibility to further infection",
+            "ur": "پتوں کے رنگ اور طاقت کو بہتر بناتا ہے اور مزید انفیکشن کی حساسیت کم کرتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "10-12 kg per acre",
+            "ur": "10-12 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At transplanting or early tillering stage",
+            "ur": "پنیری لگانے یا ابتدائی کلوں کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Standing water conditions typical of rice fields",
+            "ur": "چاول کے کھیتوں کے عام کھڑے پانی کے حالات"
+          },
+          "avoid_using_when": {
+            "en": "Highly alkaline soil without correction",
+            "ur": "بغیر اصلاح کے شدید الکلائن زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable for soil application",
+            "ur": "زمین میں استعمال کے لیے لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Brown spot is classically associated with potassium-deficient soils, making SOP the priority nutrient intervention for effective disease management.",
+          "ur": "بھورا دھبہ روایتی طور پر پوٹاشیم کی کمی والی زمینوں سے منسلک ہے، اسی لیے موثر بیماری کے انتظام کے لیے ایس او پی کو ترجیح دی جاتی ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid growing rice on potassium-deficient or sandy soils without correction",
+          "ur": "بغیر اصلاح کے پوٹاشیم کی کمی والی یا ریتیلی زمین پر چاول کاشت کرنے سے گریز کریں"
+        },
+        {
+          "en": "Maintain balanced water management, avoiding prolonged drought stress",
+          "ur": "متوازن پانی کا انتظام برقرار رکھیں اور طویل خشک سالی کے دباؤ سے بچیں"
+        },
+        {
+          "en": "Use certified disease-free seed to reduce initial inoculum",
+          "ur": "ابتدائی انوکولم کم کرنے کے لیے تصدیق شدہ بیماری سے پاک بیج استعمال کریں"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "disease_name": {
+        "en": "Rice Healthy",
+        "ur": "صحت مند چاول"
+      },
+      "crop": "Rice",
+      "class_name": "Rice___Healthy",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "NPK 20-20-20 (Water Soluble)",
+            "ur": "این پی کے 20-20-20 (پانی میں حل پذیر)"
+          },
+          "brand_examples_pakistan": [
+            "Engro NPK 20-20-20",
+            "Ravi Zarkhez NPK"
+          ],
+          "type": {
+            "en": "Balanced NPK Fertilizer",
+            "ur": "متوازن این پی کے کھاد"
+          },
+          "description": {
+            "en": "A balanced water-soluble blend supporting vegetative growth, tillering, and grain development for a healthy, high-yielding rice crop.",
+            "ur": "متوازن پانی میں حل ہونے والا مرکب جو صحت مند اور زیادہ پیداوار دینے والی چاول کی فصل کے لیے نشوونما، کلوں اور دانوں کی نشوونما کو سہارا دیتا ہے۔"
+          },
+          "purpose": {
+            "en": "Maintains balanced nutrition through growth stages",
+            "ur": "نشوونما کے مراحل کے دوران متوازن غذائیت برقرار رکھتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Supports strong tillering, healthy panicle development, and improved grain yield",
+            "ur": "مضبوط کلوں، صحت مند بالیوں کی نشوونما اور بہتر دانوں کی پیداوار کو سہارا دیتی ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "2 kg per 100 liters of water",
+            "ur": "2 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "At active tillering stage",
+            "ur": "فعال کلوں کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "14 days",
+            "ur": "14 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Calm weather with standing water in the field",
+            "ur": "پرسکون موسم اور کھیت میں کھڑا پانی"
+          },
+          "avoid_using_when": {
+            "en": "Do not apply just before draining the field",
+            "ur": "کھیت سے پانی نکالنے سے فوراً پہلے استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Urea",
+            "ur": "یوریا"
+          },
+          "brand_examples_pakistan": [
+            "Engro Urea",
+            "Fauji Sona Urea"
+          ],
+          "type": {
+            "en": "Nitrogen Fertilizer",
+            "ur": "نائٹروجن کھاد"
+          },
+          "description": {
+            "en": "Urea provides essential nitrogen for vigorous vegetative growth and tillering, which are critical for maximizing rice yield potential.",
+            "ur": "یوریا مضبوط نشوونما اور کلوں کے لیے ضروری نائٹروجن فراہم کرتی ہے، جو چاول کی زیادہ سے زیادہ پیداواری صلاحیت کے لیے اہم ہیں۔"
+          },
+          "purpose": {
+            "en": "Supports vegetative growth and tillering",
+            "ur": "نشوونما اور کلوں کے نکلنے کو سہارا دیتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Encourages higher tiller number and improved biomass leading to better yield",
+            "ur": "زیادہ کلوں کی تعداد اور بہتر حیاتیاتی مادے کو فروغ دیتی ہے جس سے پیداوار بہتر ہوتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "50-60 kg per acre per split dose",
+            "ur": "50-60 کلوگرام فی ایکڑ ہر حصے میں"
+          },
+          "first_application": {
+            "en": "At transplanting and again at tillering stage",
+            "ur": "پنیری لگانے کے وقت اور دوبارہ کلوں کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Standing water with warm temperature",
+            "ur": "کھڑا پانی اور گرم درجہ حرارت"
+          },
+          "avoid_using_when": {
+            "en": "Avoid applying right before heavy rainfall to prevent runoff loss",
+            "ur": "بہاؤ کے ضیاع سے بچنے کے لیے شدید بارش سے فوراً پہلے استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "NPK 20-20-20 (Water Soluble)",
+          "ur": "این پی کے 20-20-20 (پانی میں حل پذیر)"
+        },
+        "reason": {
+          "en": "Balanced nutrition through the vegetative and reproductive stages ensures the healthy rice crop reaches its full yield potential.",
+          "ur": "نشوونما اور تولیدی مراحل کے دوران متوازن غذائیت اس بات کو یقینی بناتی ہے کہ صحت مند چاول کی فصل اپنی مکمل پیداواری صلاحیت تک پہنچے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Maintain proper water management throughout the growth cycle",
+          "ur": "پوری نشوونما کے دوران پانی کا مناسب انتظام برقرار رکھیں"
+        },
+        {
+          "en": "Apply fertilizer in split doses to reduce nutrient loss",
+          "ur": "غذائی اجزاء کے ضیاع کو کم کرنے کے لیے کھاد کو حصوں میں تقسیم کر کے دیں"
+        },
+        {
+          "en": "Monitor field regularly for early signs of nutrient or pest stress",
+          "ur": "غذائی یا کیڑوں کے دباؤ کی ابتدائی علامات کے لیے کھیت کا باقاعدہ معائنہ کریں"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "disease_name": {
+        "en": "Rice Leaf Blast",
+        "ur": "چاول کا لیف بلاسٹ"
+      },
+      "crop": "Rice",
+      "class_name": "Rice___Leaf_Blast",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium improves silica uptake efficiency and cell wall strength, both of which contribute to greater resistance against leaf blast fungal penetration.",
+            "ur": "پوٹاشیم سیلیکا کے جذب کی کارکردگی اور سیل کی دیوار کی مضبوطی بہتر بناتا ہے، جو لیف بلاسٹ فنگس کے حملے کے خلاف زیادہ مزاحمت میں مددگار ہیں۔"
+          },
+          "purpose": {
+            "en": "Improves structural resistance to blast infection",
+            "ur": "بلاسٹ انفیکشن کے خلاف ساختی مزاحمت بہتر بناتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Reduces lesion spread and helps maintain healthier leaf area for photosynthesis",
+            "ur": "زخموں کے پھیلاؤ کو کم کرتا ہے اور فوٹو سنتھیسز کے لیے صحت مند پتوں کا رقبہ برقرار رکھنے میں مدد دیتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "60-80 kg per acre",
+            "ur": "60-80 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At early tillering stage or upon first symptoms",
+            "ur": "ابتدائی کلوں کے مرحلے پر یا پہلی علامات پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moderate temperature with standing water",
+            "ur": "معتدل درجہ حرارت اور کھڑا پانی"
+          },
+          "avoid_using_when": {
+            "en": "Excess nitrogen application alongside, which worsens blast severity",
+            "ur": "ساتھ میں اضافی نائٹروجن نہ دیں کیونکہ اس سے بلاسٹ بڑھتا ہے"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Calcium Ammonium Nitrate (CAN)",
+            "ur": "کیلشیم امونیم نائٹریٹ (سی اے این)"
+          },
+          "brand_examples_pakistan": [
+            "Fatima CAN",
+            "Engro CAN"
+          ],
+          "type": {
+            "en": "Nitrogen-Calcium Fertilizer",
+            "ur": "نائٹروجن-کیلشیم کھاد"
+          },
+          "description": {
+            "en": "CAN provides a balanced, less leaf-softening nitrogen source combined with calcium, helping avoid the excessive tender growth that favors blast development.",
+            "ur": "سی اے این متوازن اور کم پتے نرم کرنے والا نائٹروجن ذریعہ فراہم کرتی ہے جو کیلشیم کے ساتھ مل کر بلاسٹ کے لیے سازگار زیادہ نرم نشوونما سے بچاتی ہے۔"
+          },
+          "purpose": {
+            "en": "Provides balanced nitrogen without excess tenderness",
+            "ur": "اضافی نرمی کے بغیر متوازن نائٹروجن فراہم کرتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Supports steady growth recovery while minimizing conditions that favor blast spread",
+            "ur": "مستحکم نشوونما کی بحالی کو سہارا دیتی ہے اور بلاسٹ کے پھیلاؤ کے لیے سازگار حالات کو کم کرتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "40-50 kg per acre",
+            "ur": "40-50 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At active tillering stage",
+            "ur": "فعال کلوں کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moderate weather with standing water",
+            "ur": "معتدل موسم اور کھڑا پانی"
+          },
+          "avoid_using_when": {
+            "en": "Avoid high doses that promote soft, blast-prone growth",
+            "ur": "زیادہ مقدار سے گریز کریں جو نرم اور بلاسٹ کے لیے حساس نشوونما بڑھاتی ہے"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Potassium plays the most significant role in strengthening rice tissue against blast fungus penetration, making it the priority nutrient response.",
+          "ur": "پوٹاشیم چاول کے بافتوں کو بلاسٹ فنگس کے حملے کے خلاف مضبوط کرنے میں سب سے اہم کردار ادا کرتا ہے، اسی لیے اسے ترجیحی غذائی جواب سمجھا جاتا ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid excessive nitrogen fertilization which increases blast susceptibility",
+          "ur": "اضافی نائٹروجن کھاد سے گریز کریں کیونکہ اس سے بلاسٹ کی حساسیت بڑھتی ہے"
+        },
+        {
+          "en": "Use resistant rice varieties where available",
+          "ur": "جہاں دستیاب ہو مزاحم چاول کی اقسام استعمال کریں"
+        },
+        {
+          "en": "Maintain proper field spacing for good air circulation",
+          "ur": "اچھی ہوا کی آمدورفت کے لیے کھیت میں مناسب فاصلہ رکھیں"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "disease_name": {
+        "en": "Rice Neck Blast",
+        "ur": "چاول کا نیک بلاسٹ"
+      },
+      "crop": "Rice",
+      "class_name": "Rice___Neck_Blast",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium strengthens the neck node tissue of the rice panicle, reducing the risk of breakage and infection spread at this critical yield-determining point.",
+            "ur": "پوٹاشیم چاول کی بالی کے گردن والے حصے کے بافتوں کو مضبوط کرتا ہے، جس سے اس اہم پیداواری نقطے پر ٹوٹنے اور انفیکشن کے پھیلاؤ کا خطرہ کم ہوتا ہے۔"
+          },
+          "purpose": {
+            "en": "Strengthens panicle neck tissue and reduces breakage risk",
+            "ur": "بالی کی گردن کے بافتوں کو مضبوط کرتا ہے اور ٹوٹنے کا خطرہ کم کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Helps reduce panicle blast damage and supports better grain filling",
+            "ur": "بالی کے بلاسٹ نقصان کو کم کرنے میں مدد دیتا ہے اور دانوں کی بہتر بھرائی کو سہارا دیتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "60-80 kg per acre",
+            "ur": "60-80 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At panicle initiation stage",
+            "ur": "بالی بننے کے ابتدائی مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moderate temperature with standing water",
+            "ur": "معتدل درجہ حرارت اور کھڑا پانی"
+          },
+          "avoid_using_when": {
+            "en": "Avoid heavy nitrogen application near panicle initiation",
+            "ur": "بالی بننے کے قریب زیادہ نائٹروجن سے گریز کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Zinc Sulphate",
+            "ur": "زنک سلفیٹ"
+          },
+          "brand_examples_pakistan": [
+            "Engro Zinc Sulphate",
+            "ICI Zinc Sulphate"
+          ],
+          "type": {
+            "en": "Micronutrient Fertilizer",
+            "ur": "مائیکرو نیوٹرینٹ کھاد"
+          },
+          "description": {
+            "en": "Zinc supports healthy panicle and grain development, and correcting deficiency helps the plant better tolerate blast disease pressure at the critical reproductive stage.",
+            "ur": "زنک صحت مند بالی اور دانوں کی نشوونما کو سہارا دیتا ہے، اور اس کی کمی دور کرنے سے پودا اہم تولیدی مرحلے پر بلاسٹ بیماری کے دباؤ کو بہتر برداشت کرتا ہے۔"
+          },
+          "purpose": {
+            "en": "Supports reproductive stage health and stress tolerance",
+            "ur": "تولیدی مرحلے کی صحت اور دباؤ برداشت کرنے کی صلاحیت کو سہارا دیتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Improves grain filling and reduces yield loss from neck blast damage",
+            "ur": "دانوں کی بھرائی بہتر بناتا ہے اور نیک بلاسٹ نقصان سے پیداوار کے نقصان کو کم کرتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "10-12 kg per acre",
+            "ur": "10-12 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At panicle initiation stage",
+            "ur": "بالی بننے کے ابتدائی مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Standing water conditions",
+            "ur": "کھڑے پانی کے حالات"
+          },
+          "avoid_using_when": {
+            "en": "Highly alkaline soil without correction",
+            "ur": "بغیر اصلاح کے شدید الکلائن زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Since neck blast directly threatens grain yield by damaging the panicle neck, potassium's tissue-strengthening role makes it the priority nutrient here.",
+          "ur": "چونکہ نیک بلاسٹ بالی کی گردن کو نقصان پہنچا کر براہ راست دانوں کی پیداوار کو خطرے میں ڈالتا ہے، اس لیے پوٹاشیم کا بافتوں کو مضبوط کرنے والا کردار اسے ترجیحی غذائی جزو بناتا ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid excess nitrogen close to panicle initiation stage",
+          "ur": "بالی بننے کے مرحلے کے قریب اضافی نائٹروجن سے گریز کریں"
+        },
+        {
+          "en": "Time fertilizer application to avoid coinciding with high blast risk periods",
+          "ur": "کھاد کے استعمال کا وقت اس طرح رکھیں کہ یہ زیادہ بلاسٹ خطرے کے دنوں سے نہ ملے"
+        },
+        {
+          "en": "Use resistant varieties and certified seed where possible",
+          "ur": "جہاں ممکن ہو مزاحم اقسام اور تصدیق شدہ بیج استعمال کریں"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "disease_name": {
+        "en": "Wheat Brown Rust",
+        "ur": "گندم کا بھورا زنگ"
+      },
+      "crop": "Wheat",
+      "class_name": "Wheat___Brown_Rust",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium improves cell wall thickness and reduces the plant's vulnerability to rust spore penetration, helping limit the spread of brown rust pustules.",
+            "ur": "پوٹاشیم سیل کی دیوار کی موٹائی بہتر بناتا ہے اور رسٹ اسپورز کے حملے کے خلاف پودے کی کمزوری کم کرتا ہے، جس سے بھورے زنگ کے دانوں کا پھیلاؤ محدود ہوتا ہے۔"
+          },
+          "purpose": {
+            "en": "Improves resistance and limits pustule spread",
+            "ur": "مزاحمت بہتر بناتا ہے اور دانوں کے پھیلاؤ کو محدود کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Supports stronger stems and reduces yield loss from rust-damaged leaf area",
+            "ur": "مضبوط تنوں کو سہارا دیتا ہے اور رسٹ سے متاثرہ پتوں کی وجہ سے پیداوار کے نقصان کو کم کرتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "50-60 kg per acre",
+            "ur": "50-60 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At tillering to jointing stage",
+            "ur": "کلوں سے جوڑ بننے کے مرحلے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Dry, moderate weather with good sunlight",
+            "ur": "خشک، معتدل موسم اور اچھی دھوپ"
+          },
+          "avoid_using_when": {
+            "en": "Waterlogged or excessively humid conditions",
+            "ur": "پانی کھڑے یا زیادہ نمی والے حالات میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "NPK 20-20-20 (Water Soluble)",
+            "ur": "این پی کے 20-20-20 (پانی میں حل پذیر)"
+          },
+          "brand_examples_pakistan": [
+            "Engro NPK 20-20-20",
+            "Ravi Zarkhez NPK"
+          ],
+          "type": {
+            "en": "Balanced NPK Fertilizer",
+            "ur": "متوازن این پی کے کھاد"
+          },
+          "description": {
+            "en": "A balanced foliar feed helps restore nutrient uptake disrupted by rust infection and supports faster recovery of photosynthetic capacity.",
+            "ur": "متوازن فولیئر خوراک رسٹ انفیکشن سے متاثرہ غذائی جذب کو بحال کرنے میں مدد دیتی ہے اور فوٹو سنتھیسز کی صلاحیت کی تیز بحالی کو سہارا دیتی ہے۔"
+          },
+          "purpose": {
+            "en": "Restores balanced nutrition and supports recovery",
+            "ur": "متوازن غذائیت بحال کرتی ہے اور بحالی کو سہارا دیتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Helps maintain grain fill despite reduced leaf area from rust damage",
+            "ur": "رسٹ نقصان سے کم ہونے والے پتوں کے رقبے کے باوجود دانوں کی بھرائی برقرار رکھنے میں مدد دیتی ہے"
+          },
+          "application_method": {
+            "en": "Foliar Spray",
+            "ur": "پتوں پر سپرے"
+          },
+          "dosage": {
+            "en": "2 kg per 100 liters of water",
+            "ur": "2 کلوگرام فی 100 لیٹر پانی"
+          },
+          "first_application": {
+            "en": "At first appearance of rust pustules",
+            "ur": "جیسے ہی رسٹ کے دانے نظر آئیں"
+          },
+          "repeat_after_days": {
+            "en": "10 days",
+            "ur": "10 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Mild, dry weather with good sunlight",
+            "ur": "ہلکا خشک موسم اور اچھی دھوپ"
+          },
+          "avoid_using_when": {
+            "en": "Avoid application during high humidity",
+            "ur": "زیادہ نمی کے دوران استعمال سے گریز کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Compatible with most systemic fungicides in tank mix",
+            "ur": "زیادہ تر سسٹیمک فنجیسائیڈز کے ساتھ ٹینک مکس میں استعمال کیا جا سکتا ہے"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Potassium's role in strengthening cell structure makes it the priority nutrient for limiting brown rust severity and protecting yield.",
+          "ur": "پوٹاشیم کا سیل کی ساخت مضبوط کرنے میں کردار اسے بھورے زنگ کی شدت محدود کرنے اور پیداوار کی حفاظت کے لیے ترجیحی غذائی جزو بناتا ہے۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Avoid excess nitrogen which increases rust susceptibility",
+          "ur": "اضافی نائٹروجن سے گریز کریں کیونکہ اس سے رسٹ کی حساسیت بڑھتی ہے"
+        },
+        {
+          "en": "Use rust-resistant wheat varieties where available",
+          "ur": "جہاں دستیاب ہو زنگ کے خلاف مزاحم گندم کی اقسام استعمال کریں"
+        },
+        {
+          "en": "Monitor fields regularly during humid, cool weather when rust risk is highest",
+          "ur": "مرطوب، ٹھنڈے موسم میں جب رسٹ کا خطرہ سب سے زیادہ ہو تو کھیتوں کا باقاعدہ معائنہ کریں"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "disease_name": {
+        "en": "Wheat Healthy",
+        "ur": "صحت مند گندم"
+      },
+      "crop": "Wheat",
+      "class_name": "Wheat___Healthy",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "DAP (Diammonium Phosphate)",
+            "ur": "ڈی اے پی (ڈائی امونیم فاسفیٹ)"
+          },
+          "brand_examples_pakistan": [
+            "Engro DAP",
+            "Fauji DAP"
+          ],
+          "type": {
+            "en": "Phosphorus-Nitrogen Fertilizer",
+            "ur": "فاسفورس-نائٹروجن کھاد"
+          },
+          "description": {
+            "en": "DAP supplies phosphorus and nitrogen essential for strong root establishment and early tillering, forming the foundation for a healthy, high-yielding wheat crop.",
+            "ur": "ڈی اے پی فاسفورس اور نائٹروجن فراہم کرتی ہے جو مضبوط جڑوں کے قیام اور ابتدائی کلوں کے لیے ضروری ہیں، جو صحت مند اور زیادہ پیداوار دینے والی گندم کی فصل کی بنیاد بنتے ہیں۔"
+          },
+          "purpose": {
+            "en": "Supports root establishment and early growth",
+            "ur": "جڑوں کے قیام اور ابتدائی نشوونما کو سہارا دیتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Promotes strong root systems and improved tillering, leading to higher grain yield",
+            "ur": "مضبوط جڑوں کے نظام اور بہتر کلوں کو فروغ دیتی ہے، جس سے دانوں کی پیداوار بڑھتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "50 kg per acre",
+            "ur": "50 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At sowing time",
+            "ur": "بوائی کے وقت"
+          },
+          "repeat_after_days": {
+            "en": "Not applicable, single basal dose",
+            "ur": "لاگو نہیں، صرف ایک بار بنیادی خوراک"
+          },
+          "best_weather_conditions": {
+            "en": "Moist soil at sowing",
+            "ur": "بوائی کے وقت نم زمین"
+          },
+          "avoid_using_when": {
+            "en": "Very dry soil without irrigation planned",
+            "ur": "بغیر آبپاشی کے منصوبے والی انتہائی خشک زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Urea",
+            "ur": "یوریا"
+          },
+          "brand_examples_pakistan": [
+            "Engro Urea",
+            "Fauji Sona Urea"
+          ],
+          "type": {
+            "en": "Nitrogen Fertilizer",
+            "ur": "نائٹروجن کھاد"
+          },
+          "description": {
+            "en": "Urea provides nitrogen necessary for vegetative growth, tillering, and grain protein content, supporting overall wheat crop health and productivity.",
+            "ur": "یوریا نشوونما، کلوں اور دانوں میں پروٹین کی مقدار کے لیے ضروری نائٹروجن فراہم کرتی ہے، جو گندم کی مجموعی صحت اور پیداواری صلاحیت کو سہارا دیتی ہے۔"
+          },
+          "purpose": {
+            "en": "Supports vegetative growth and grain quality",
+            "ur": "نشوونما اور دانوں کے معیار کو سہارا دیتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Encourages good tillering and improved grain yield and protein content",
+            "ur": "اچھے کلوں کو فروغ دیتی ہے اور دانوں کی پیداوار اور پروٹین کی مقدار بہتر بناتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "50 kg per acre per split dose",
+            "ur": "50 کلوگرام فی ایکڑ ہر حصے میں"
+          },
+          "first_application": {
+            "en": "At first irrigation after sowing",
+            "ur": "بوائی کے بعد پہلی آبپاشی کے وقت"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Moist soil before or after irrigation",
+            "ur": "آبپاشی سے پہلے یا بعد نم زمین"
+          },
+          "avoid_using_when": {
+            "en": "Dry soil without irrigation planned",
+            "ur": "بغیر آبپاشی کے منصوبے والی خشک زمین میں استعمال نہ کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "Not applicable",
+            "ur": "لاگو نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "DAP (Diammonium Phosphate)",
+          "ur": "ڈی اے پی (ڈائی امونیم فاسفیٹ)"
+        },
+        "reason": {
+          "en": "Strong early root and tiller development from phosphorus is foundational to a healthy wheat crop reaching its full yield potential.",
+          "ur": "فاسفورس سے حاصل ہونے والی مضبوط ابتدائی جڑیں اور کلے صحت مند گندم کی فصل کے اپنی مکمل پیداواری صلاحیت تک پہنچنے کی بنیاد ہیں۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Apply basal DAP at sowing for best root development",
+          "ur": "بہترین جڑوں کی نشوونما کے لیے بوائی کے وقت بنیادی ڈی اے پی دیں"
+        },
+        {
+          "en": "Follow a split nitrogen schedule for efficient uptake",
+          "ur": "موثر جذب کے لیے نائٹروجن کو حصوں میں تقسیم کر کے دیں"
+        },
+        {
+          "en": "Conduct soil testing to fine-tune fertilizer rates for your field",
+          "ur": "اپنے کھیت کے لیے کھاد کی مقدار درست کرنے کے لیے مٹی کا ٹیسٹ کروائیں"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "disease_name": {
+        "en": "Wheat Yellow Rust",
+        "ur": "گندم کا پیلا زنگ"
+      },
+      "crop": "Wheat",
+      "class_name": "Wheat___Yellow_Rust",
+      "recommended_fertilizers": [
+        {
+          "priority": 1,
+          "name": {
+            "en": "Potassium Sulphate (SOP)",
+            "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+          },
+          "brand_examples_pakistan": [
+            "Engro SOP",
+            "Fauji SOP"
+          ],
+          "type": {
+            "en": "Potash Fertilizer",
+            "ur": "پوٹاش کھاد"
+          },
+          "description": {
+            "en": "Potassium strengthens cell walls and improves water regulation, reducing the favorable stripe-pattern spread of yellow rust across leaf tissue.",
+            "ur": "پوٹاشیم سیل کی دیواریں مضبوط کرتا ہے اور پانی کے توازن کو بہتر بناتا ہے، جس سے پتوں کے بافتوں میں پیلے زنگ کے دھاری دار پھیلاؤ کے لیے سازگار حالات کم ہو جاتے ہیں۔"
+          },
+          "purpose": {
+            "en": "Improves resistance and slows stripe rust spread",
+            "ur": "مزاحمت بہتر بناتا ہے اور پیلے زنگ کے پھیلاؤ کو سست کرتا ہے"
+          },
+          "impact_on_crop": {
+            "en": "Helps maintain green leaf area and reduces yield loss from rust-damaged tissue",
+            "ur": "سبز پتوں کا رقبہ برقرار رکھنے میں مدد دیتا ہے اور رسٹ سے متاثرہ بافتوں کی وجہ سے پیداوار کے نقصان کو کم کرتا ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "50-60 kg per acre",
+            "ur": "50-60 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At tillering to jointing stage, or upon first symptoms",
+            "ur": "کلوں سے جوڑ بننے کے مرحلے پر، یا پہلی علامات پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Cool, dry weather with good sunlight",
+            "ur": "ٹھنڈا، خشک موسم اور اچھی دھوپ"
+          },
+          "avoid_using_when": {
+            "en": "Cool, humid, or foggy conditions which favor yellow rust spread",
+            "ur": "ٹھنڈے، مرطوب یا دھند والے حالات میں استعمال نہ کریں کیونکہ اس سے پیلا زنگ پھیلتا ہے"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        },
+        {
+          "priority": 2,
+          "name": {
+            "en": "Calcium Ammonium Nitrate (CAN)",
+            "ur": "کیلشیم امونیم نائٹریٹ (سی اے این)"
+          },
+          "brand_examples_pakistan": [
+            "Fatima CAN",
+            "Engro CAN"
+          ],
+          "type": {
+            "en": "Nitrogen-Calcium Fertilizer",
+            "ur": "نائٹروجن-کیلشیم کھاد"
+          },
+          "description": {
+            "en": "CAN provides a balanced nitrogen source along with calcium, supporting recovery without promoting the excessive soft growth that yellow rust favors.",
+            "ur": "سی اے این کیلشیم کے ساتھ متوازن نائٹروجن ذریعہ فراہم کرتی ہے، جو پیلے زنگ کے لیے سازگار زیادہ نرم نشوونما کو بڑھائے بغیر بحالی کو سہارا دیتی ہے۔"
+          },
+          "purpose": {
+            "en": "Supports balanced recovery without excess tenderness",
+            "ur": "اضافی نرمی کے بغیر متوازن بحالی کو سہارا دیتی ہے"
+          },
+          "impact_on_crop": {
+            "en": "Helps the plant recover nutrient balance while minimizing conditions favorable to further rust spread",
+            "ur": "پودے کو غذائی توازن بحال کرنے میں مدد دیتی ہے اور رسٹ کے مزید پھیلاؤ کے لیے سازگار حالات کو کم کرتی ہے"
+          },
+          "application_method": {
+            "en": "Soil Application",
+            "ur": "زمین میں استعمال"
+          },
+          "dosage": {
+            "en": "40-50 kg per acre",
+            "ur": "40-50 کلوگرام فی ایکڑ"
+          },
+          "first_application": {
+            "en": "At jointing stage or upon symptom detection",
+            "ur": "جوڑ بننے کے مرحلے پر یا علامات کا پتہ چلنے پر"
+          },
+          "repeat_after_days": {
+            "en": "21 days",
+            "ur": "21 دن بعد دوبارہ"
+          },
+          "best_weather_conditions": {
+            "en": "Cool, dry conditions with good sunlight",
+            "ur": "ٹھنڈے، خشک حالات اور اچھی دھوپ"
+          },
+          "avoid_using_when": {
+            "en": "Avoid high doses during active rust outbreaks",
+            "ur": "فعال رسٹ کے پھیلاؤ کے دوران زیادہ مقدار سے گریز کریں"
+          },
+          "compatibility_with_fungicide": {
+            "en": "No adverse interaction with fungicides",
+            "ur": "فنجیسائیڈز کے ساتھ کوئی منفی تعامل نہیں"
+          },
+          "availability_in_pakistan": true
+        }
+      ],
+      "best_recommendation": {
+        "fertilizer_name": {
+          "en": "Potassium Sulphate (SOP)",
+          "ur": "پوٹاشیم سلفیٹ (ایس او پی)"
+        },
+        "reason": {
+          "en": "Yellow rust thrives in cool, humid conditions, and potassium's structural resistance benefits are the most effective nutrient-based response to slow its spread.",
+          "ur": "پیلا زنگ ٹھنڈے، مرطوب حالات میں پھلتا پھولتا ہے، اور پوٹاشیم کے ساختی مزاحمتی فوائد اس کے پھیلاؤ کو سست کرنے کے لیے سب سے موثر غذائی ردعمل ہیں۔"
+        }
+      },
+      "farmer_notes": [
+        {
+          "en": "Monitor fields closely during cool, humid weather when yellow rust risk is highest",
+          "ur": "ٹھنڈے، مرطوب موسم میں جب پیلے زنگ کا خطرہ سب سے زیادہ ہو تو کھیتوں کی قریب سے نگرانی کریں"
+        },
+        {
+          "en": "Avoid excess nitrogen which increases susceptibility",
+          "ur": "اضافی نائٹروجن سے گریز کریں کیونکہ اس سے حساسیت بڑھتی ہے"
+        },
+        {
+          "en": "Use yellow rust-resistant wheat varieties where available",
+          "ur": "جہاں دستیاب ہو پیلے زنگ کے خلاف مزاحم گندم کی اقسام استعمال کریں"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">کسان اے آئی</string>
+    <string name="welcome_back">خوش آمدید</string>
+    <string name="login_subtitle">اپنے سمارٹ فارمنگ کے سفر کو جاری رکھنے کے لیے لاگ ان کریں 🌿</string>
+    <string name="email_address">ای میل ایڈریس</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="forgot_password">پاس ورڈ بھول گئے؟</string>
+    <string name="login">لاگ ان</string>
+    <string name="no_account">کیا آپ کا اکاؤنٹ نہیں ہے؟ </string>
+    <string name="sign_up">سائن اپ کریں</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_ur">اردو</string>
+
+    <!-- Signup Screen -->
+    <string name="create_account_title">اپنا اکاؤنٹ بنائیں</string>
+    <string name="signup_subtitle">کساں اے آئی میں شامل ہوں اور اپنی\nسمارٹ فارمنگ کا سفر شروع کریں 🌿</string>
+    <string name="full_name">پورا نام</string>
+    <string name="confirm_password">پاس ورڈ کی تصدیق کریں</string>
+    <string name="create_account">اکاؤنٹ بنائیں</string>
+    <string name="already_have_account">پہلے سے ہی اکاؤنٹ ہے؟ </string>
+
+    <!-- Forgot Password Dialog -->
+    <string name="forgot_password_title">پاس ورڈ بھول گئے؟</string>
+    <string name="forgot_password_desc">پاس ورڈ ری سیٹ کرنے کے لیے اپنا ای میل درج کریں۔</string>
+    <string name="send_reset_link">ری سیٹ لنک بھیجیں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="reset_link_sent">آپ کے ای میل پر پاس ورڈ ری سیٹ لنک بھیج دیا گیا ہے۔</string>
+
+    <!-- Registration Dialog -->
+    <string name="registration_success_title">رجسٹریشن کامیابی کے ساتھ مکمل ہوگئی</string>
+    <string name="verification_link_sent">تصدیقی لنک %1$s پر بھیج دیا گیا ہے</string>
+    <string name="ok">ٹھیک ہے</string>
+
+    <!-- Errors -->
+    <string name="error_name_required">نام درج کرنا ضروری ہے</string>
+    <string name="error_email_required">ای میل درج کرنا ضروری ہے</string>
+    <string name="error_invalid_email">غلط ای میل ایڈریس</string>
+    <string name="error_email_not_found">ای میل ایڈریس نہیں ملا۔</string>
+    <string name="error_password_required">پاس ورڈ درج کرنا ضروری ہے</string>
+    <string name="error_incorrect_password">غلط پاس ورڈ۔</string>
+    <string name="error_confirm_password_required">براہ کرم پاس ورڈ کی تصدیق کریں</string>
+    <string name="error_passwords_dont_match">پاس ورڈ مماثل نہیں ہیں</string>
+    <string name="error_verify_email">براہ کرم پہلے اپنا ای میل ایڈریس تصدیق کریں۔</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">ڈیش بورڈ</string>
+    <string name="nav_scan">اسکین</string>
+    <string name="nav_history">تاریخ</string>
+    <string name="nav_fertilizer">کھاد</string>
+    <string name="nav_irrigation">آبپاشی</string>
+    
+    <string name="logout">لاگ آؤٹ</string>
+
+    <!-- Dashboard -->
+    <string name="greeting">سلام،</string>
+    <string name="weather_today">آج کا موسم</string>
+    <string name="temp_unit">°C</string>
+    <string name="location_weather">لاہور • جزوی طور پر ابر آلود، ہلکی ہوا</string>
+    <string name="scan_leaf">پتہ اسکین کریں</string>
+    <string name="scan_desc">اے آئی کے ذریعے فصل کی بیماری کا پتہ لگانے کے لیے تصویر کھینچیں</string>
+    <string name="btn_scan_disease">بیماری اسکین کریں</string>
+    <string name="upcoming_irrigation">آنے والی آبپاشی</string>
+    <string name="no_fields_tracked">ابھی تک کوئی کھیت ٹریک نہیں ہوا</string>
+    <string name="manage_irrigation">آبپاشی کا انتظام کریں ←</string>
+    <string name="latest_market_prices">تازہ ترین مارکیٹ کی قیمتیں</string>
+    <string name="no_prices_available">ابھی کوئی قیمتیں دستیاب نہیں ہیں</string>
+    <string name="view_market_prices">مارکیٹ کی قیمتیں دیکھیں ←</string>
+    <string name="search_crops">فصلیں تلاش کریں...</string>
+    <string name="search_cities">شہر تلاش کریں...</string>
+    <string name="price_unit_note">تمام قیمتیں فی 40 کلوگرام (من) ہیں</string>
+    <string name="no_prices_found">اس فصل کے لیے کوئی قیمت نہیں ملی</string>
+    <string name="rs_unit">روپے %1$.0f</string>
+    <string name="mann_unit">/ 40 کلو</string>
+    <string name="select_city">شہر منتخب کریں</string>
+    <string name="locating">تلاش جاری ہے...</string>
+    <string name="weather_icon">موسم کی علامت</string>
+    <string name="temp_placeholder">--°C</string>
+    <string name="humidity">نمی</string>
+    <string name="wind_speed">ہوا کی رفتار</string>
+    <string name="rain_prob">بارش</string>
+    <string name="humidity_val">--%</string>
+    <string name="wind_val">-- کلومیٹر فی گھنٹہ</string>
+    <string name="rain_val">--%</string>
+    <string name="weather_forecast">موسم کی پیشن گوئی</string>
+    <string name="hourly_forecast">گھنٹہ وار پیشن گوئی</string>
+    <string name="daily_forecast">روزانہ کی پیشن گوئی</string>
+
+    <!-- AI Scan Screen -->
+    <string name="ai_disease_detection"> بیماری کا پتہ لگانا</string>
+    <string name="scan_subtitle">کسی ایک متاثرہ پتے کی واضح تصویر اپ لوڈ کریں</string>
+    <string name="crop_optional">فصل</string>
+    <string name="choose_take_photo">تصویر منتخب کریں یا کھینچیں</string>
+    <string name="photo_specs">JPG یا PNG، 10MB تک</string>
+    <string name="btn_scan_this_leaf">پتے کو اسکین کریں</string>
+
+    <string name="select_image">تصویر منتخب کریں</string>
+    <string name="camera">کیمرہ</string>
+    <string name="gallery">گیلری</string>
+    <string name="no_history">کوئی اسکین ہسٹری نہیں ملی</string>
+    <string name="no_history_desc">آپ کے تجزیہ کردہ پتے یہاں ظاہر ہوں گے۔</string>
+    <string name="crop_label">فصل: %1$s</string>
+    <string name="confidence_label">%1$d%% اعتماد</string>
+
+    <!-- History -->
+    <string name="clear_history_title">ہسٹری صاف کریں</string>
+    <string name="clear_history_msg">کیا آپ تمام اسکین ہسٹری ڈیلیٹ کرنا چاہتے ہیں؟</string>
+    <string name="clear_all">تمام صاف کریں</string>
+    <string name="delete_history_title">ہسٹری ڈیلیٹ کریں</string>
+    <string name="delete_history_msg">کیا آپ اس اسکین کو ڈیلیٹ کرنا چاہتے ہیں؟</string>
+    <string name="delete">ڈیلیٹ کریں</string>
+
+    <!-- Disease Details -->
+    <string name="disease_details">بیماری کی تفصیلات</string>
+    <string name="description">تفصیل</string>
+    <string name="estimated_recovery">تخمینی صحت یابی</string>
+    <string name="symptoms">علامات</string>
+    <string name="prevention">احتیاطی تدابیر</string>
+    <string name="treatment">علاج</string>
+    <string name="view_details">تفصیلات دیکھیں</string>
+    <string name="severity_label">شدت</string>
+    <string name="view_fertilizers">کھاد کی معلومات دیکھیں</string>
+    <string name="fertilizer_recommendations">کھاد کی تجاویز</string>
+    <string name="priority_1">پہلی ترجیح</string>
+    <string name="priority_2">دوسری ترجیح</string>
+    <string name="impact_on_crop">فصل پر اثر</string>
+    <string name="application_method">استعمال کا طریقہ</string>
+    <string name="dosage">مقدار (خوراک)</string>
+    <string name="first_application">پہلا استعمال</string>
+    <string name="repeat_after_days">دوبارہ استعمال</string>
+    <string name="best_weather">بہترین موسمی حالات</string>
+    <string name="avoid_using_when">استعمال سے گریز کریں جب</string>
+    <string name="availability_pakistan">پاکستان میں دستیابی</string>
+    <string name="brand_examples">برانڈ کی مثالیں (پاکستان)</string>
+    <string name="best_rec_reason">تجویز کی وجہ</string>
+    <string name="farmer_notes">کسانوں کے لیے نوٹ</string>
+    <string name="select_your_crop">اپنی اہم فصل منتخب کریں</string>
+    <string name="select_crop_desc">ذاتی نوعیت کی تجاویز اور قیمتوں کے الرٹس حاصل کرنے کے لیے اپنی بنیادی فصل منتخب کریں۔</string>
+    <string name="crop_wheat">گندم</string>
+    <string name="crop_sugarcane">گنا</string>
+    <string name="crop_potato">آلو</string>
+    <string name="crop_maize">مئی (مکئی)</string>
+    <string name="crop_rice">چاول</string>
+    <string name="confirm_selection">انتخاب کی تصدیق کریں</string>
+    <string name="please_select_crop">جاری رکھنے کے لیے براہ کرم ایک فصل منتخب کریں</string>
+    <string name="last_irrigation_title">آخری آبپاشی کی تاریخ</string>
+    <string name="last_irrigation_desc">آپ نے آخری بار اپنی %1$s کی فصل کو کب پانی دیا تھا؟</string>
+    <string name="select_date">تاریخ منتخب کریں</string>
+    <string name="save_date">تاریخ محفوظ کریں</string>
+    <string name="last_recorded_date">آخری ریکارڈ شدہ: %1$s</string>
+    <string name="irrigation_saved">آبپاشی کی تاریخ محفوظ ہوگئی</string>
+    <string name="no_irrigation_history">کوئی آبپاشی کی ہسٹری نہیں ملی</string>
+    <string name="no_irrigation_history_desc">آپ کے آبپاشی کے ریکارڈ یہاں ظاہر ہوں گے۔</string>
+    <string name="clear_irrigation_history_msg">کیا آپ واقعی آبپاشی کی تمام ہسٹری حذف کرنا چاہتے ہیں؟</string>
+    <string name="delete_irrigation_record_msg">کیا آپ واقعی اس ریکارڈ کو حذف کرنا چاہتے ہیں؟</string>
+    <string name="irrigation_date_display">آبپاشی کی گئی: %1$s</string>
+    <string name="ai_prediction_label">اے آئی کی پیش گوئی: اگلی آبپاشی %1$s کو</string>
+    <string name="next_irrigation_date">اگلی آبپاشی: %1$s (اے آئی)</string>
+    <string name="ai_calculating">اے آئی اگلی تاریخ کی پیش گوئی کر رہا ہے...</string>
+    <string name="ai_failed">اے آئی کی پیش گوئی ناکام ہوگئی</string>
+    <string name="no_fertilizer_rec">کھاد کی کوئی تجویز نہیں ملی</string>
+    <string name="no_fertilizer_desc">کھاد کی تجاویز حاصل کرنے کے لیے بیماری کے لیے فصل کو اسکین کریں۔</string>
+</resources>
